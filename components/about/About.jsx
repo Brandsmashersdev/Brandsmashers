@@ -17,7 +17,7 @@ const About = () => {
     <div className="edina_tm_about" id="about">
       <div className="container">
         <div className="about_title">
-          <h3>About Me</h3>
+          <h3>About Us</h3>
         </div>
         <div className="content">
           <div
@@ -28,17 +28,14 @@ const About = () => {
           >
             <div className="info">
               <h3>
-                Hi, Im <span>Rokers Nelson</span>
+                Hi, We're <span>Brandsmashers</span>
               </h3>
               <p>
-                Im a Freelancer Front-end Developer with over 6 years of
-                experience. Im from San Francisco. I code and create web
-                elements for amazing people around the world. I like work with
-                new people.
+              With a team of highly skilled professionals boasting over 6 years of collective experience in the field. Specializing in front-end development with React.js, we pride ourselves on delivering exceptional solutions tailored to meet our clients' unique needs. 
               </p>
             </div>
             <div className="my_skills">
-              <h3 className="title">What is my skill level?</h3>
+              <h3 className="title">What are the technologies we're working on?</h3>
               <p className="desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
                 ipsum sit nibh amet egestas tellus.
@@ -66,7 +63,7 @@ const About = () => {
               <Image
                 width={445}
                 height={599}
-                src="/img/thumbs/26-35.jpg"
+                src="/img/thumbs/image1.jpg"
                 alt="thumb"
               />
 
