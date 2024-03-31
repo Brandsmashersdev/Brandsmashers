@@ -161,6 +161,7 @@ const EdinaPreview = () => {
           >
             elite-themes24.
           </a>
+          {" "}
           All Rights Reserved.
         </p>
       </div>
