@@ -3,8 +3,8 @@ import Link from "next/link";
 import ScrollspyNav from "react-scrollspy-nav";
 import sidebarContent from "../../data/sidebar";
 import Image from "next/image";
-import logo from "../../public/img/logo/dark.png";
-import logo2 from "../../public/img/logo/light.png";
+import logo from "../../public/img/logo/fullLogo.png";
+import logo2 from "../../public/img/logo/fullLogo.png";
 
 // sidebar footer bottom content
 const sidebarFooterContent = {
@@ -51,15 +51,15 @@ const HeaderHorizontal = () => {
           <div className="logo">
             <Link href="/">
               <Image
-                width={92}
-                height={37}
+                width={180}
+                height={55}
                 className="logo_light"
                 src={logo}
                 alt="brand"
               />
               <Image
-                width={92}
-                height={37}
+                width={180}
+                height={55}
                 className="logo_dark"
                 src={logo2}
                 alt="brand"
