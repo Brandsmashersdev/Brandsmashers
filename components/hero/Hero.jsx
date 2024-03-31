@@ -5,6 +5,7 @@ import Image from "next/image";
 import shapeImage from "../../public/img/hero/1.jpg";
 import heroImage from "../../public/img/logo/logo.png";
 
+
 const heroContent = {
   shapeImage: shapeImage,
   heroImage: heroImage,
@@ -14,12 +15,24 @@ const heroContent = {
 
 const Hero = () => {
   return (
+   
     //    HERO
     <div className="edina_tm_hero" id="home">
+     
       <div className="content">
-        <div className="img-shape" data-aos="fade-up" data-aos-duration="1200">
+        {/* <div className="img-shape" data-aos="fade-up" data-aos-duration="1200">
           <Image src={heroContent.heroImage} alt="brand" />
+        </div> */}
+
+        {/* <div className="Icon1">
+          <Image src={require("../../public/Icon1.png")}/>
         </div>
+
+        <div className="Icon2">
+          <Image src={require("../../public/Icon2.png")}/>
+        </div> */}
+
+
         <div className="extra">
           <h5
             data-aos="fade-up"
@@ -27,7 +40,7 @@ const Hero = () => {
             data-aos-delay="100"
             className="hello"
           >
-            Hello, We&apos;re {heroContent.name}
+            Your Software <span className="solution-text">Solution</span> Partner
           </h5>
           <h1
             className="name"
@@ -40,7 +53,7 @@ const Hero = () => {
                 loop
                 typeSpeed={150}
                 backSpeed={60}
-                strings={["Software Development", "Mobile App Development"]}
+                strings={["Software Development", "Mobile App Development", "Web Development"]}
                 smartBackspace
                 shuffle={false}
                 backDelay={1}
@@ -75,9 +88,9 @@ const Hero = () => {
             data-aos-duration="1200"
             data-aos-delay="500"
           >
-            {/* <a href="/img/sample.pdf" download className="color">
-              Download CV
-            </a> */}
+            <a href="/img/sample.pdf" download className="color">
+              Download Brochure
+            </a>
           </div>
         </div>
       </div>

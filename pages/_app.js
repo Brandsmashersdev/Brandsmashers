@@ -7,6 +7,7 @@ import "../styles/index.scss";
 import { useEffect } from "react";
 import dynamic from "next/dynamic";
 
+
 const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
   ssr: false,
 });
@@ -40,6 +41,7 @@ function MyApp({ Component, pageProps }) {
 
       {/* <!-- Scroll To Top --> */}
       <ScrollToTop />
+      
     </div>
   );
 }
