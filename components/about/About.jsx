@@ -60,22 +60,22 @@ const About = () => {
 
           <div className="rightpart">
             <div className="image">
-              <Image
-                width={445}
-                height={599}
-                src="/img/thumbs/image1.jpg"
-                alt="thumb"
-              />
+            <Image
+        width={445}
+        height={599}
+        src="/img/thumbs/image1.jpg"
+        alt="thumb"
+      />
 
-              <div
-                className="main"
-                style={{
-                  backgroundImage: "url(img/about/2.jpg)",
-                }}
-                data-aos="fade-left"
-                data-aos-duration="1200"
-                data-aos-delay="200"
-              ></div>
+      <div
+        className="main"
+        style={{
+          backgroundImage: "url(/giphy.gif)", // Correct relative path to GIF file
+        }}
+        data-aos="fade-left"
+        data-aos-duration="1200"
+        data-aos-delay="200"
+      ></div>
 
               <div
                 className="experience"

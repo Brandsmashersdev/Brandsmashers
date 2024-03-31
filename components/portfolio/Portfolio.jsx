@@ -114,7 +114,7 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: `url(${singleData?.portfolioImage})`,
+                    backgroundImage: `url(${singleData?.portfolioBanner})`,
                   }}
                 ></div>
               </div>
