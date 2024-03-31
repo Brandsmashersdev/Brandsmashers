@@ -1,23 +1,23 @@
 module.exports = [
   {
     img: "1",
-    desc: `Hi, I’m Alvara Atkins and I am designer &amp; developer who dream making the world better place by products. I am also very active for international clients.`,
+    desc: `The team at Brandsmashers transformed our outdated systems into a seamless digital ecosystem, revolutionizing our operations. `,
     name: "Alvara Atkins",
-    designation: "Marketing Manager",
+    designation: "CEO",
     delayAnimation: "",
   },
   {
     img: "2",
-    desc: `These people really know what they are doing! Great customer support availability and supperb kindness. I am very happy that I've purchased this liscense!!!`,
+    desc: `With Brandsmashers innovative software solutions, we've experienced unparalleled efficiency and growth in our business`,
     name: "Fabian Gattuzo",
-    designation: "Photographer",
+    designation: "CTO",
     delayAnimation: "100",
   },
   {
     img: "3",
-    desc: `These people really know what they are doing! Great customer support availability and supperb kindness. I am very happy that I've purchased this liscense!!!`,
+    desc: `Thanks to Brandsmasher expertise, our transition to the cloud was smooth and seamless, resulting in significant cost savings and improved scalability`,
     name: "Alizee Bonita",
-    designation: "App Developer",
+    designation: "Director of Operations",
     delayAnimation: "200",
   },
 ];

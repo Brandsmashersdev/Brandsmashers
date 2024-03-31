@@ -25,8 +25,10 @@
     "react-toastify": "^9.1.1",
     "react-tooltip": "^4.2.21",
     "react-transition-group": "^4.4.5",
+    "react-tsparticles": "^2.12.2",
     "react-typed": "^1.2.0",
     "sass": "^1.56.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "tsparticles": "^3.3.0"
   }
 }
