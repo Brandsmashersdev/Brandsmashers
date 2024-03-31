@@ -28,14 +28,14 @@ const About = () => {
           >
             <div className="info">
               <h3>
-                Hi, We're <span>Brandsmashers</span>
+                Hi, We&apos;re <span>Brandsmashers</span>
               </h3>
               <p>
-              With a team of highly skilled professionals boasting over 6 years of collective experience in the field. Specializing in front-end development with React.js, we pride ourselves on delivering exceptional solutions tailored to meet our clients' unique needs. 
+                With a team of highly skilled professionals boasting over 6 years of collective experience in the field. Specializing in front-end development with React.js, we pride ourselves on delivering exceptional solutions tailored to meet our client&apos;s unique needs.
               </p>
             </div>
             <div className="my_skills">
-              <h3 className="title">What are the technologies we're working on?</h3>
+              <h3 className="title">What are the technologies we&apos;re working on?</h3>
               <p className="desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
                 ipsum sit nibh amet egestas tellus.
