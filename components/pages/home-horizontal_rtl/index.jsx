@@ -94,7 +94,7 @@ const EdinaHorizontalRtl = () => {
           <div className="edina_tm_title">
             <h3>Portfolio</h3>
             <p>
-            Explore our diverse portfolio of software solutions, showcasing our expertise in custom development, cloud services, and digital transformation. Discover how we've empowered businesses to thrive in the digital age.
+            Explore our diverse portfolio of software solutions, showcasing our expertise in custom development, cloud services, and digital transformation. Discover how we&apos;ve empowered businesses to thrive in the digital age.
             </p>
           </div>
           {/* End edian_tm_title */}
