@@ -35,17 +35,16 @@ const About = () => {
               </p>
             </div>
             <div className="my_skills">
-              <h3 className="title">What are the technologies we&apos;re working on?</h3>
+              <h3 className="title">Our Innovation Palette</h3>
               <p className="desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                ipsum sit nibh amet egestas tellus.
+              Explore the diverse array of technologies we're passionately engaged with, shaping the future landscape of digital innovation.
               </p>
               <div className="wrapper">
                 <div className="dodo_progress">
                   <Skills />
                 </div>
               </div>
-              <div className="edina_tm_button">
+              {/* <div className="edina_tm_button">
                 <button
                   type="submit"
                   className="color"
@@ -53,7 +52,7 @@ const About = () => {
                 >
                   See More
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* End leftpart */}
@@ -85,7 +84,7 @@ const About = () => {
               >
                 <div className="info">
                   <h3>6+ Years</h3>
-                  <span>Of Experiance</span>
+                  <span>Of Experience</span>
                 </div>
               </div>
             </div>
