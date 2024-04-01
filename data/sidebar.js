@@ -3,23 +3,22 @@ module.exports = [
   { icon: "human", itemName: "About", itemRoute: "#about", activeClass: "" },
   {
     icon: "service",
-    itemName: "Service",
+    itemName: "Services",
     itemRoute: "#service",
     activeClass: "",
   },
   {
     icon: "portfolio",
-    itemName: "Portfolio",
+    itemName: "Projects",
     itemRoute: "#portfolio",
     activeClass: "",
   },
   {
     icon: "testimonial",
-    itemName: "Testimonial",
+    itemName: "Testimonials",
     itemRoute: "#testimonial",
     activeClass: "",
   },
-  // { icon: "blog", itemName: "Blog", itemRoute: "#blog", activeClass: "" },
   {
     icon: "contact",
     itemName: "Contact",

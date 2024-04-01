@@ -622,7 +622,7 @@ body.dark .loader_line:after {
   text-align: center;
 
   .edina_tm_button {
-    margin-top: 25px;
+    // margin-top: 25px;
     a {
       border-radius: 30px;
 
@@ -674,6 +674,9 @@ body.dark .loader_line:after {
   font-weight: 700;
   line-height: 1.2;
   margin: 10px 0 12px;
+  @media screen and (max-width: 991px) {
+    font-size: 20px !important;
+  }
 }
 .edina_tm_hero .extra {
   position: relative;
@@ -773,12 +776,15 @@ body.dark .loader_line:after {
 .hello {
   color: #0B3558;
   font-weight: 700;
-  font-size: 70px
+  font-size: 70px;
+  @media screen and (max-width: 991px) {
+    font-size: 60px;
+    line-height: 70px;
+  }
 }
 
 .solution-text{
   color: coral;
-  
 }
 
 .Icon1{

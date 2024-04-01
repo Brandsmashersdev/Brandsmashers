@@ -37,7 +37,7 @@ const EdinaHorizontal = () => {
   return (
     <div className={`home-light ${isDark ? "theme-dark" : ""}`}>
       {/* Start Dark & Light Mode Swicher  */}
-      <label
+      {/* <label
         className={`theme-switcher-label horizontal d-flex  ${
           isDark ? "active" : ""
         }`}
@@ -55,7 +55,7 @@ const EdinaHorizontal = () => {
             <FaSun />
           </i>
         </div>
-      </label>
+      </label> */}
       {/* End Dark & Light Mode Swicher  */}
 
       <header className="header-area">

@@ -52,7 +52,7 @@ const HeaderHorizontal = () => {
             <Link href="/">
               <Image
                 width={180}
-                height={55}
+                height={40}
                 className="logo_light"
                 src={logo}
                 alt="brand"
@@ -76,7 +76,6 @@ const HeaderHorizontal = () => {
                 "service",
                 "portfolio",
                 "testimonial",
-                // "blog",
                 "contact",
               ]}
               activeNavClass="active"
