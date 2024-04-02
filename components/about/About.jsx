@@ -69,7 +69,8 @@ const About = () => {
       <div
         className="main"
         style={{
-          backgroundImage: "url(/giphy.gif)", // Correct relative path to GIF file
+          backgroundImage: "url(img/about/sj-coder.gif)", // Correct relative path to GIF file
+          backgroundPositionY: "-75px",
         }}
         data-aos="fade-left"
         data-aos-duration="1200"

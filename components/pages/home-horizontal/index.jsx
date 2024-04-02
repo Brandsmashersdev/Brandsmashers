@@ -7,7 +7,6 @@ import About from "../../about/About";
 import Service from "../../service/Service";
 import Portfolio from "../../portfolio/Portfolio";
 import Testimonial from "../../testimonial/Testimonial";
-// import Blog from "../../blog/Blog";
 import Contact from "../../Contact";
 import Address from "../../Address";
 import Map from "../../Map";
@@ -91,9 +90,9 @@ const EdinaHorizontal = () => {
       <div className="edina_tm_portfolio" id="portfolio">
         <div className="container">
           <div className="edina_tm_title">
-            <h3>Portfolio</h3>
+            <h3>Projects</h3>
             <p>
-            Explore our diverse portfolio of software solutions, showcasing our expertise in custom development, cloud services, and digital transformation. Discover how we&apos;ve empowered businesses to thrive in the digital age.
+            Explore our diverse projects of software solutions, showcasing our expertise in custom development, cloud services, and digital transformation. Discover how we&apos;ve empowered businesses to thrive in the digital age.
             </p>
           </div>
           {/* End edian_tm_title */}
