@@ -78,7 +78,7 @@ const EdinaHorizontal = () => {
           <div className="edina_tm_title">
             <h3>What We Do</h3>
             <p>
-            We specialize in crafting innovative software solutions tailored to your business needs. From custom development to cloud solutions, let us drive your digital transformation.
+              We specialize in crafting innovative software solutions tailored to your business needs. From custom development to cloud solutions, let us drive your digital transformation.
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -92,7 +92,7 @@ const EdinaHorizontal = () => {
           <div className="edina_tm_title">
             <h3>Projects</h3>
             <p>
-            Explore our diverse projects of software solutions, showcasing our expertise in custom development, cloud services, and digital transformation. Discover how we&apos;ve empowered businesses to thrive in the digital age.
+              Explore our diverse projects of software solutions, showcasing our expertise in custom development, cloud services, and digital transformation. Discover how we&apos;ve empowered businesses to thrive in the digital age.
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -106,7 +106,7 @@ const EdinaHorizontal = () => {
           <div className="edina_tm_title">
             <h3>Testimonials</h3>
             <p>
-            Explore testimonials that highlight our dedication to exceeding client expectations and delivering exceptional results.
+              Explore testimonials that highlight our dedication to exceeding client expectations and delivering exceptional results.
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -128,9 +128,9 @@ const EdinaHorizontal = () => {
               ipsum sit nibh amet egestas tellus.
             </p>
           </div> */}
-          {/* End edian_tm_title */}
-          {/* <Blog /> */}
-        {/* </div> */}
+      {/* End edian_tm_title */}
+      {/* <Blog /> */}
+      {/* </div> */}
       {/* </div> */}
       {/* End Blog */}
 
@@ -139,7 +139,7 @@ const EdinaHorizontal = () => {
           <div className="edina_tm_title">
             <h3>Contact</h3>
             <p>
-            Get in touch with our expert team today to discuss your software needs and take the first step towards digital transformation.  
+              Get in touch with our expert team today to discuss your software needs and take the first step towards digital transformation.
             </p>
           </div>
           <div className="extra_info">

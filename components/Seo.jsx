@@ -5,16 +5,16 @@ const Seo = ({ pageTitle, font }) => (
     <Head>
       <title>
         {pageTitle &&
-          `${pageTitle} || Edina - Personal Portfolio React NextJS Template}`}
+          `${pageTitle} Technologies`}
       </title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta
         name="keywords"
-        content="	cv, portfolio, react nextjs portfolio, resume"
+        content="	portfolio, react nextjs portfolio, software company, brandsmashers"
       />
       <meta
         name="description"
-        content="Edian - Personal Portfolio React NextJS Template"
+        content="Brandsmashers Technologies - A software Company providing better software solutions"
       />
       <meta name="ibthemes" content="ATFN" />
       <meta
