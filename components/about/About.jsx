@@ -37,7 +37,7 @@ const About = () => {
             <div className="my_skills">
               <h3 className="title">Our Innovation Palette</h3>
               <p className="desc">
-              Explore the diverse array of technologies we're passionately engaged with, shaping the future landscape of digital innovation.
+                Explore the diverse array of technologies we're passionately engaged with, shaping the future landscape of digital innovation.
               </p>
               <div className="wrapper">
                 <div className="dodo_progress">
@@ -59,23 +59,23 @@ const About = () => {
 
           <div className="rightpart">
             <div className="image">
-            <Image
-        width={445}
-        height={599}
-        src="/img/thumbs/image1.jpg"
-        alt="thumb"
-      />
+              <Image
+                width={445}
+                height={599}
+                src="/img/thumbs/image1.jpg"
+                alt="thumb"
+              />
 
-      <div
-        className="main"
-        style={{
-          backgroundImage: "url(img/about/sj-coder.gif)", // Correct relative path to GIF file
-          backgroundPositionY: "-75px",
-        }}
-        data-aos="fade-left"
-        data-aos-duration="1200"
-        data-aos-delay="200"
-      ></div>
+              <div
+                className="main"
+                style={{
+                  backgroundImage: "url(img/about/sj-coder.gif)", // Correct relative path to GIF file
+                  backgroundPositionY: "-75px",
+                }}
+                data-aos="fade-left"
+                data-aos-duration="1200"
+                data-aos-delay="200"
+              ></div>
 
               <div
                 className="experience"

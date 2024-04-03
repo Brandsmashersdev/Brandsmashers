@@ -9,15 +9,15 @@ module.exports = [
     meta: "Product",
     clientName: "Taskii",
     category: "Mobile App",
-    date: "October 22, 2022",
+    date: "October 22, 2023",
     projectDescriptions: (
       <>
         <p>
-          
+          Taskii provides a platform for service providers to create comprehensive profiles highlighting their skills, experience, and qualifications. With the ability to upload blogs and share insights into their craft, professionals can effectively showcase their expertise and establish credibility within the Taskii community. Service providers can easily manage their schedules, accept bids, and communicate with clients—all within the Taskii app.
         </p>
 
         <p>
-          
+          Taskii offers an intuitive interface for users seeking reliable and affordable home services. Whether it's fixing a leaky faucet, repairing a broken appliance, or renovating a living space, Taskii simplifies the process of finding the right professional for the job. Users can browse through a diverse range of service providers, view their profiles and ratings, and request bids for their desired services. With Taskii's transparent bid system, users can compare quotes from multiple providers and select the most suitable option based on cost and expertise.
         </p>
       </>
     ),
@@ -29,7 +29,7 @@ module.exports = [
     portfolioBanner: "/img/portfolio/Close2buy-Banner.png",
     portfolioLink: "https://play.google.com/store/apps/details?id=com.close2buy.user",
     title: "Close To Buy",
-    meta: "Dribbble",
+    meta: "Product",
     clientName: "Close To Buy",
     category: "Mobile App",
     date: "February 20, 2024",
@@ -52,7 +52,7 @@ module.exports = [
     portfolioBanner: "/img/portfolio/TaskerWebqoda.png",
     portfolioLink: "tasker.webqoda.com",
     title: "Task Management",
-    meta: "Facebook",
+    meta: "Web Application",
     clientName: "Webqoda",
     category: "Web Application",
     date: "March 20, 2024",
@@ -79,7 +79,7 @@ module.exports = [
     portfolioBanner: "/img/portfolio/Stockable-banner.png",
     portfolioLink: "",
     title: "Stockit",
-    meta: "Instagram",
+    meta: "Mobile App",
     clientName: "Stockit",
     category: "Mobile App",
     date: "October 22, 2022",

@@ -38,7 +38,6 @@ const Address = () => {
           <li>
             <p>
               Ashoka Garden,
-              <br />
               Bhopal
             </p>
           </li>
