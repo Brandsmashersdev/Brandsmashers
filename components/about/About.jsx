@@ -37,7 +37,7 @@ const About = () => {
             <div className="my_skills">
               <h3 className="title">Our Innovation Palette</h3>
               <p className="desc">
-                Explore the diverse array of technologies we're passionately engaged with, shaping the future landscape of digital innovation.
+                Explore the diverse array of technologies we&apos;re passionately engaged with, shaping the future landscape of digital innovation.
               </p>
               <div className="wrapper">
                 <div className="dodo_progress">
