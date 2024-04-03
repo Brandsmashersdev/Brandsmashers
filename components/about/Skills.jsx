@@ -2,27 +2,35 @@ import React from "react";
 
 const skillsContent = [
   {
-    name: "React.Js",
+    name: "MERN Stack Development",
     skillPercent: "95",
   },
   {
-    name: "Vue.Js",
-    skillPercent: "80",
-  },
-  {
-    name: "Photoshop",
+    name: "Backend Development",
     skillPercent: "90",
   },
   {
-    name: "Figma",
-    skillPercent: "95",
-  },
-  {
-    name: "Illustrator",
+    name: "MEAN Stack Development",
     skillPercent: "80",
   },
   {
-    name: "WordPress",
+    name: "Desktop Applications",
+    skillPercent: "80",
+  },
+  {
+    name: "Mobile App Development",
+    skillPercent: "95",
+  },
+  {
+    name: "Cross-Platform Apps",
+    skillPercent: "90",
+  },
+  {
+    name: "Database Solutions",
+    skillPercent: "95",
+  },
+  {
+    name: "Cloud Services",
     skillPercent: "90",
   },
 ];
@@ -32,15 +40,15 @@ const Skills = () => {
     <>
       {skillsContent.map((val, i) => (
         <div className="progress_inner" key={i}>
-          <span className="label">{val.name}</span>
-          <div className="background">
+          <span className="label" style={{ marginBottom: 0}}>{val.name}</span>
+          {/* <div className="background">
             <div className="bar">
               <div
                 className="bar_in"
                 style={{ width: val.skillPercent + "%" }}
               ></div>
             </div>
-          </div>
+          </div> */}
         </div>
       ))}
     </>

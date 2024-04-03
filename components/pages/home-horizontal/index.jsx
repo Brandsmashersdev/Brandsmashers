@@ -7,7 +7,6 @@ import About from "../../about/About";
 import Service from "../../service/Service";
 import Portfolio from "../../portfolio/Portfolio";
 import Testimonial from "../../testimonial/Testimonial";
-import Blog from "../../blog/Blog";
 import Contact from "../../Contact";
 import Address from "../../Address";
 import Map from "../../Map";
@@ -37,7 +36,7 @@ const EdinaHorizontal = () => {
   return (
     <div className={`home-light ${isDark ? "theme-dark" : ""}`}>
       {/* Start Dark & Light Mode Swicher  */}
-      <label
+      {/* <label
         className={`theme-switcher-label horizontal d-flex  ${
           isDark ? "active" : ""
         }`}
@@ -55,7 +54,7 @@ const EdinaHorizontal = () => {
             <FaSun />
           </i>
         </div>
-      </label>
+      </label> */}
       {/* End Dark & Light Mode Swicher  */}
 
       <header className="header-area">
@@ -77,10 +76,9 @@ const EdinaHorizontal = () => {
       <div className="edina_tm_services" id="service">
         <div className="container">
           <div className="edina_tm_title">
-            <h3>What I Do</h3>
+            <h3>What We Do</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              We specialize in crafting innovative software solutions tailored to your business needs. From custom development to cloud solutions, let us drive your digital transformation.
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -92,10 +90,9 @@ const EdinaHorizontal = () => {
       <div className="edina_tm_portfolio" id="portfolio">
         <div className="container">
           <div className="edina_tm_title">
-            <h3>Portfolio</h3>
+            <h3>Projects</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              Explore our diverse projects of software solutions, showcasing our expertise in custom development, cloud services, and digital transformation. Discover how we&apos;ve empowered businesses to thrive in the digital age.
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -109,8 +106,7 @@ const EdinaHorizontal = () => {
           <div className="edina_tm_title">
             <h3>Testimonials</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              Explore testimonials that highlight our dedication to exceeding client expectations and delivering exceptional results.
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -123,7 +119,7 @@ const EdinaHorizontal = () => {
       </div>
       {/* End Testimonial */}
 
-      <div className="edina_tm_news" id="blog">
+      {/* <div className="edina_tm_news" id="blog">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Blog</h3>
@@ -131,11 +127,11 @@ const EdinaHorizontal = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
               ipsum sit nibh amet egestas tellus.
             </p>
-          </div>
-          {/* End edian_tm_title */}
-          <Blog />
-        </div>
-      </div>
+          </div> */}
+      {/* End edian_tm_title */}
+      {/* <Blog /> */}
+      {/* </div> */}
+      {/* </div> */}
       {/* End Blog */}
 
       <div className="edina_tm_contact" id="contact">
@@ -143,8 +139,7 @@ const EdinaHorizontal = () => {
           <div className="edina_tm_title">
             <h3>Contact</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              Get in touch with our expert team today to discuss your software needs and take the first step towards digital transformation.
             </p>
           </div>
           <div className="extra_info">
@@ -160,7 +155,7 @@ const EdinaHorizontal = () => {
             >
               <div className="title">
                 <p>
-                  I am always open to discussing product
+                  We are always open to discussing product
                   <br />
                   <span> design work or partnerships.</span>
                 </p>

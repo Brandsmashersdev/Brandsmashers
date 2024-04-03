@@ -557,7 +557,7 @@ body.dark .loader_line:after {
 .edina_tm_sidebar .author .image {
   position: relative;
   width: 50px;
-  height: 50px;
+  height: 40px;
   border-radius: 100%;
   display: inline-block;
 }
@@ -622,7 +622,7 @@ body.dark .loader_line:after {
   text-align: center;
 
   .edina_tm_button {
-    margin-top: 25px;
+    // margin-top: 25px;
     a {
       border-radius: 30px;
 
@@ -674,6 +674,9 @@ body.dark .loader_line:after {
   font-weight: 700;
   line-height: 1.2;
   margin: 10px 0 12px;
+  @media screen and (max-width: 991px) {
+    font-size: 20px !important;
+  }
 }
 .edina_tm_hero .extra {
   position: relative;
@@ -771,9 +774,45 @@ body.dark .loader_line:after {
   line-height: 1;
 }
 .hello {
-  color: #666;
-  font-weight: 500;
+  color: #0B3558;
+  font-weight: 700;
+  font-size: 70px;
+  @media screen and (max-width: 991px) {
+    font-size: 60px;
+    line-height: 70px;
+  }
 }
+
+.solution-text{
+  color: #ef5537;
+}
+
+.Icon1{
+  position: absolute;
+  left:20px;
+ 
+top:2px
+
+
+}
+.Icon1 img{
+  width: 200px;
+  height: 200px;
+}
+
+.Icon2{
+  position: absolute;
+  right:100px;
+ 
+  top:1px
+
+
+}
+.Icon2 img{
+  width: 200px;
+  height: 200px;
+}
+
 .edina_tm_about .color {
   border-radius: 6px;
   padding: 13px 30px;
@@ -861,7 +900,7 @@ body.dark .loader_line:after {
 }
 .progress_inner {
   width: 100%;
-  margin-bottom: 31px;
+  margin-bottom: 15px;
 }
 .progress_inner .label {
   font-size: 16px;
@@ -880,7 +919,7 @@ body.dark .loader_line:after {
 }
 .progress_inner .background .bar_in {
   height: 100%;
-  background: #34495e;
+  background: #3e2bce;
 
   overflow: hidden;
 }
@@ -950,7 +989,7 @@ body.dark .loader_line:after {
   width: 291px;
   height: 291px;
   border-radius: 100%;
-  background-color: #34495e;
+  background-color: #1e0a3bff;
 }
 .edina_tm_about .experience .info {
   position: absolute;
@@ -1555,7 +1594,7 @@ body.dark .loader_line:after {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  height: 420px;
+  max-height: 450px;
   @media screen and (max-width: 1500px) {
     height: auto;
   }

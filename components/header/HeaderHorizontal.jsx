@@ -8,9 +8,9 @@ import logo2 from "../../public/img/logo/fullLogo.png";
 
 // sidebar footer bottom content
 const sidebarFooterContent = {
-  name: "Nelson",
-  email: "support@gmail.com",
-  emailRef: "mailto:ib-themes21@gmail.com",
+  name: "Brandsmashers",
+  email: "brandingaayu@gmail.com",
+  emailRef: "mailto:brandingaayu@gmail.com",
 };
 
 const HeaderHorizontal = () => {
@@ -52,7 +52,7 @@ const HeaderHorizontal = () => {
             <Link href="/">
               <Image
                 width={180}
-                height={55}
+                height={40}
                 className="logo_light"
                 src={logo}
                 alt="brand"
@@ -76,7 +76,6 @@ const HeaderHorizontal = () => {
                 "service",
                 "portfolio",
                 "testimonial",
-                "blog",
                 "contact",
               ]}
               activeNavClass="active"
@@ -115,7 +114,7 @@ const HeaderHorizontal = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(img/about/avatar.jpg)",
+                    backgroundImage: "url(img/logo/logo.png)",
                   }}
                 ></div>
               </div>

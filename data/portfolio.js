@@ -2,28 +2,22 @@ module.exports = [
   {
     id: 1,
     tooltipId: "product",
-    portfolioImage: "/img/portfolio/1.jpg",
-    portfolioLink: "https://www.behance.net/ib-themes",
-    title: "Behance Profile",
+    portfolioImage: "/img/portfolio/Urban.png",
+    portfolioBanner: "/img/portfolio/Tasker-Banner.png",
+    portfolioLink: "",
+    title: "Taskii",
     meta: "Product",
-    clientName: "Alvaro Morata",
-    category: "Behance Shoot",
-    date: "October 22, 2022",
+    clientName: "Taskii",
+    category: "Mobile App",
+    date: "October 22, 2023",
     projectDescriptions: (
       <>
         <p>
-          We live in a world where we need to move quickly and iterate on our
-          ideas as flexibly as possible. Building mockups strikes the ideal
-          balance between true-life representation of the end product and ease
-          of modification.
+          Taskii provides a platform for service providers to create comprehensive profiles highlighting their skills, experience, and qualifications. With the ability to upload blogs and share insights into their craft, professionals can effectively showcase their expertise and establish credibility within the Taskii community. Service providers can easily manage their schedules, accept bids, and communicate with clients—all within the Taskii app.
         </p>
 
         <p>
-          Mockups are useful both for the creative phase of the project - for
-          instance when you&lsquo;re trying to figure out your user flows or the
-          proper visual hierarchy - and the production phase when they will
-          represent the target product. Making mockups a part of your creative
-          and development process allows you to quickly and easily ideate.
+          Taskii offers an intuitive interface for users seeking reliable and affordable home services. Whether it's fixing a leaky faucet, repairing a broken appliance, or renovating a living space, Taskii simplifies the process of finding the right professional for the job. Users can browse through a diverse range of service providers, view their profiles and ratings, and request bids for their desired services. With Taskii's transparent bid system, users can compare quotes from multiple providers and select the most suitable option based on cost and expertise.
         </p>
       </>
     ),
@@ -31,28 +25,22 @@ module.exports = [
   {
     id: 2,
     tooltipId: "dribbble",
-    portfolioImage: "/img/portfolio/2.jpg",
-    portfolioLink: "https://dribbble.com/ib-themes",
-    title: "Dribbble Shot",
-    meta: "Dribbble",
-    clientName: "Alvaro Morata",
-    category: "Dribbble Shoot",
-    date: "October 22, 2022",
+    portfolioImage: "/img/portfolio/Close2buy.jpg",
+    portfolioBanner: "/img/portfolio/Close2buy-Banner.png",
+    portfolioLink: "https://play.google.com/store/apps/details?id=com.close2buy.user",
+    title: "Close To Buy",
+    meta: "Product",
+    clientName: "Close To Buy",
+    category: "Mobile App",
+    date: "February 20, 2024",
     projectDescriptions: (
       <>
         <p>
-          We live in a world where we need to move quickly and iterate on our
-          ideas as flexibly as possible. Building mockups strikes the ideal
-          balance between true-life representation of the end product and ease
-          of modification.
+        At our service-based company, we take pride in our expertise in crafting seamless solutions for our clients, and our recent project exemplifies our commitment to excellence. Leveraging the power of Figma for design and Flutter for development, coupled with Node.js and MongoDB for backend support, we meticulously engineered a delivery partner application that revolutionizes the logistics industry. Our solution streamlines the entire delivery process, from onboarding new riders with a robust verification system to optimizing delivery routes for maximum efficiency. With an intuitive interface designed for ease of use, delivery partners can effortlessly manage their shifts, accept orders, and track deliveries in real-time.
         </p>
 
         <p>
-          Mockups are useful both for the creative phase of the project - for
-          instance when you&lsquo;re trying to figure out your user flows or the
-          proper visual hierarchy - and the production phase when they will
-          represent the target product. Making mockups a part of your creative
-          and development process allows you to quickly and easily ideate.
+        Furthermore, our application ensures transparency and accountability at every stage, with features such as photo confirmation of pickups and OTP verification for customer identity. Payment calculations based on distance traveled, meticulously managed through our admin panel, guarantee fair compensation for our delivery partners. In times of crisis, our emergency handling system provides swift assistance, allowing riders to unassign orders with ease. Through our dedication to innovation and attention to detail, we've developed a cutting-edge solution that empowers businesses to thrive in the fast-paced world of delivery logistics.
         </p>
       </>
     ),
@@ -60,28 +48,26 @@ module.exports = [
   {
     id: 3,
     tooltipId: "facebook",
-    portfolioImage: "/img/portfolio/3.jpg",
-    portfolioLink: "https://www.facebook.com/",
-    title: "Facebook Shot",
-    meta: "Facebook",
-    clientName: "Alvaro Morata",
-    category: "Facebook Shoot",
-    date: "October 22, 2022",
+    portfolioImage: "/img/portfolio/Tasker.jpg",
+    portfolioBanner: "/img/portfolio/TaskerWebqoda.png",
+    portfolioLink: "tasker.webqoda.com",
+    title: "Task Management",
+    meta: "Web Application",
+    clientName: "Webqoda",
+    category: "Web Application",
+    date: "March 20, 2024",
     projectDescriptions: (
       <>
         <p>
-          We live in a world where we need to move quickly and iterate on our
-          ideas as flexibly as possible. Building mockups strikes the ideal
-          balance between true-life representation of the end product and ease
-          of modification.
+        Tasker is our innovative task management and project collaboration platform designed to streamline workflows and boost productivity for teams of all sizes. Whether you're coordinating tasks in a bustling office environment or managing projects from the comfort of your home office, Tasker provides the tools you need to succeed.
         </p>
 
         <p>
-          Mockups are useful both for the creative phase of the project - for
-          instance when you&lsquo;re trying to figure out your user flows or the
-          proper visual hierarchy - and the production phase when they will
-          represent the target product. Making mockups a part of your creative
-          and development process allows you to quickly and easily ideate.
+        Tasker stands out from other task management systems with its user-friendly interface, robust feature set, and unparalleled flexibility, making it the ideal solution for teams looking to elevate their productivity and achieve success in today's dynamic work environments.
+        </p>
+
+        <p>
+        Ready to revolutionize the way your team works? Explore Tasker's features and discover how it can transform your project management experience. Collaborate, manage projects, and reach new productivity peaks with Tasker.
         </p>
       </>
     ),
@@ -89,59 +75,53 @@ module.exports = [
   {
     id: 4,
     tooltipId: "Instagram",
-    portfolioImage: "/img/portfolio/4.jpg",
-    portfolioLink: "https://www.instagram.com/",
-    title: "Instagram Shot",
-    meta: "Instagram",
-    clientName: "Alvaro Morata",
-    category: "Instagram Shoot",
+    portfolioImage: "/img/portfolio/Stockable.png",
+    portfolioBanner: "/img/portfolio/Stockable-banner.png",
+    portfolioLink: "",
+    title: "Stockit",
+    meta: "Mobile App",
+    clientName: "Stockit",
+    category: "Mobile App",
     date: "October 22, 2022",
     projectDescriptions: (
       <>
         <p>
-          We live in a world where we need to move quickly and iterate on our
-          ideas as flexibly as possible. Building mockups strikes the ideal
-          balance between true-life representation of the end product and ease
-          of modification.
-        </p>
+        Step into the world of finance with our latest achievement: a custom-built mobile trading app designed specifically for our client's needs. Our team worked closely with them from start to finish to make their vision a reality.We focused on making the app easy to use and packed with helpful features. With the latest technology, we made sure it runs smoothly and quickly, even when the markets are busy.
+       </p>
 
         <p>
-          Mockups are useful both for the creative phase of the project - for
-          instance when you&lsquo;re trying to figure out your user flows or the
-          proper visual hierarchy - and the production phase when they will
-          represent the target product. Making mockups a part of your creative
-          and development process allows you to quickly and easily ideate.
+        Our designers made the app look great and easy to understand, so anyone can use it without any hassle. We tested it thoroughly to ensure it's safe and works perfectly on all types of phones.Now, our client can offer their users a convenient way to trade stocks and more right from their phones. It's a win-win for everyone involved, making trading simpler and more accessible for all.
         </p>
       </>
     ),
   },
-  {
-    id: 5,
-    tooltipId: "web",
-    portfolioImage: "/img/portfolio/5.jpg",
-    portfolioLink: "https://themeforest.net/user/ib-themes",
-    title: "Web Apps Shot",
-    meta: "Web Apps",
-    clientName: "Alvaro Morata",
-    category: "Web Shoot",
-    date: "October 22, 2022",
-    projectDescriptions: (
-      <>
-        <p>
-          We live in a world where we need to move quickly and iterate on our
-          ideas as flexibly as possible. Building mockups strikes the ideal
-          balance between true-life representation of the end product and ease
-          of modification.
-        </p>
+  // {
+  //   id: 5,
+  //   tooltipId: "web",
+  //   portfolioImage: "/img/portfolio/5.jpg",
+  //   portfolioLink: "https://themeforest.net/user/ib-themes",
+  //   title: "Web Apps Shot",
+  //   meta: "Web Apps",
+  //   clientName: "Alvaro Morata",
+  //   category: "Web Shoot",
+  //   date: "October 22, 2022",
+  //   projectDescriptions: (
+  //     <>
+  //       <p>
+  //         We live in a world where we need to move quickly and iterate on our
+  //         ideas as flexibly as possible. Building mockups strikes the ideal
+  //         balance between true-life representation of the end product and ease
+  //         of modification.
+  //       </p>
 
-        <p>
-          Mockups are useful both for the creative phase of the project - for
-          instance when you&lsquo;re trying to figure out your user flows or the
-          proper visual hierarchy - and the production phase when they will
-          represent the target product. Making mockups a part of your creative
-          and development process allows you to quickly and easily ideate.
-        </p>
-      </>
-    ),
-  },
+  //       <p>
+  //         Mockups are useful both for the creative phase of the project - for
+  //         instance when you&lsquo;re trying to figure out your user flows or the
+  //         proper visual hierarchy - and the production phase when they will
+  //         represent the target product. Making mockups a part of your creative
+  //         and development process allows you to quickly and easily ideate.
+  //       </p>
+  //     </>
+  //   ),
+  // },
 ];

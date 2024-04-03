@@ -31,21 +31,20 @@ const About = () => {
                 Hi, We&apos;re <span>Brandsmashers</span>
               </h3>
               <p>
-              With a team of highly skilled professionals boasting over 6 years of collective experience in the field. Specializing in front-end development with React.js, we pride ourselves on delivering exceptional solutions tailored to meet our clients&apos; unique needs. 
+                With a team of highly skilled professionals boasting over 6 years of collective experience in the field. Specializing in front-end development with React.js, we pride ourselves on delivering exceptional solutions tailored to meet our client&apos;s unique needs.
               </p>
             </div>
             <div className="my_skills">
-              <h3 className="title">What are the technologies we&apos;re working on?</h3>
+              <h3 className="title">Our Innovation Palette</h3>
               <p className="desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                ipsum sit nibh amet egestas tellus.
+                Explore the diverse array of technologies we&apos;re passionately engaged with, shaping the future landscape of digital innovation.
               </p>
               <div className="wrapper">
                 <div className="dodo_progress">
                   <Skills />
                 </div>
               </div>
-              <div className="edina_tm_button">
+              {/* <div className="edina_tm_button">
                 <button
                   type="submit"
                   className="color"
@@ -53,7 +52,7 @@ const About = () => {
                 >
                   See More
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* End leftpart */}
@@ -70,7 +69,8 @@ const About = () => {
               <div
                 className="main"
                 style={{
-                  backgroundImage: "url(img/about/2.jpg)",
+                  backgroundImage: "url(img/about/sj-coder.gif)", // Correct relative path to GIF file
+                  backgroundPositionY: "-75px",
                 }}
                 data-aos="fade-left"
                 data-aos-duration="1200"
@@ -85,7 +85,7 @@ const About = () => {
               >
                 <div className="info">
                   <h3>6+ Years</h3>
-                  <span>Of Experiance</span>
+                  <span>Of Experience</span>
                 </div>
               </div>
             </div>
