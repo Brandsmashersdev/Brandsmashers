@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import Social from "../Social";
 import portfolioData from "../../data/portfolio";
 import Image from "next/image";
+import Link from "next/link";
 
 Modal.setAppElement("#__next");
 
@@ -51,38 +52,40 @@ const Portfolio = () => {
       <ul data-aos="fade-right" data-aos-duration="1200">
         <Slider {...settings}>
           {portfolioData.map((item) => (
-            <li key={item.id}>
-              <div className="list_inner">
-                <div className="image">
-                  <div
-                    onClick={() => handleModle(item?.id)}
-                    className="details"
-                  >
-                    <Image
-                      width={357}
-                      height={357}
-                      src={item.portfolioImage}
-                      data-tip
-                      data-for={item.tooltipId}
-                      alt="portfolio"
-                    />
-
-                    <ReactTooltip
-                      id={item.tooltipId}
-                      place="bottom"
-                      type="light"
-                      effect="float"
-                      className="tooltip-wrapper"
+            <Link target="_blank" href={`projects/${item.projectName}`} key={item.id}>
+              <li>
+                <div className="list_inner">
+                  <div className="image">
+                    <div
+                      // onClick={() => handleModle(item?.id)}
+                      className="details"
                     >
-                      <div>
-                        <h5>{item.title}</h5>
-                        <span>{item.meta}</span>
-                      </div>
-                    </ReactTooltip>
+                      <Image
+                        width={357}
+                        height={357}
+                        src={item.portfolioImage}
+                        data-tip
+                        data-for={item.tooltipId}
+                        alt="portfolio"
+                      />
+
+                      <ReactTooltip
+                        id={item.tooltipId}
+                        place="bottom"
+                        type="light"
+                        effect="float"
+                        className="tooltip-wrapper"
+                      >
+                        <div>
+                          <h5>{item.title}</h5>
+                          <span>{item.meta}</span>
+                        </div>
+                      </ReactTooltip>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </li>
+              </li>
+            </Link>
           ))}
         </Slider>
       </ul>
