@@ -14,6 +14,12 @@ module.exports = [
     activeClass: "",
   },
   {
+    icon: "blog",
+    itemName: "Blogs",
+    itemRoute: "#blog",
+    activeClass: "",
+  },
+  {
     icon: "testimonial",
     itemName: "Testimonials",
     itemRoute: "#testimonial",
