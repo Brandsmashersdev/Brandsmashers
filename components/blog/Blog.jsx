@@ -41,8 +41,8 @@ const Blog = () => {
       <div className="news_inner my_carousel" id="modal">
         <ul>
           <Slider {...settings}>
-            {blogsData.map((item) => (
-              <Link href={`/blogs/${item.routeName}`} target="_blank">
+            {blogsData.map((item, i) => (
+              <Link key={i} href={`/blogs/${item.routeName}`} target="_blank">
               <li
                 data-aos="fade-right"
                 data-aos-duration="1200"

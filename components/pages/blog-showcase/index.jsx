@@ -57,7 +57,7 @@ const BlogShowcase = ({ blogName }) => {
         <div className="bodySection container max-w-screen-md">
           <div className="paraSectionWrapper">
             {data?.headSections?.map((elem, index) => (
-              <div className="introParaWrapper">
+              <div key={index} className="introParaWrapper">
                 <h1 className="paraTitle">{elem.title}</h1>
                 <h2 className="paraDescription">{elem.description}</h2>
               </div>
