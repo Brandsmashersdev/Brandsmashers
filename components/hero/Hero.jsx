@@ -40,7 +40,7 @@ const Hero = () => {
             data-aos-delay="100"
             className="hello"
           >
-            Your Software <span className="solution-text">Solution</span> Partner
+            Your Software <span className="highlight-text">Solution</span> Partner
           </h5>
           <h1
             className="name"

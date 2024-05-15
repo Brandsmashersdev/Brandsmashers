@@ -32,7 +32,6 @@ body {
   letter-spacing: 0px;
   word-wrap: break-word;
   font-weight: 400;
-  background-color: #fff;
   color: #7e7e7e;
   overflow-x: hidden;
   @media screen and (max-width: 768px) {
@@ -772,45 +771,6 @@ body.dark .loader_line:after {
   font-size: 45px;
   font-weight: 700;
   line-height: 1;
-}
-.hello {
-  color: #0B3558;
-  font-weight: 700;
-  font-size: 70px;
-  @media screen and (max-width: 991px) {
-    font-size: 60px;
-    line-height: 70px;
-  }
-}
-
-.solution-text{
-  color: #ef5537;
-}
-
-.Icon1{
-  position: absolute;
-  left:20px;
- 
-top:2px
-
-
-}
-.Icon1 img{
-  width: 200px;
-  height: 200px;
-}
-
-.Icon2{
-  position: absolute;
-  right:100px;
- 
-  top:1px
-
-
-}
-.Icon2 img{
-  width: 200px;
-  height: 200px;
 }
 
 .edina_tm_about .color {
