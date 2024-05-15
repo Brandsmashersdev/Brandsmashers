@@ -72,7 +72,7 @@ const ProjectShowcase = () => {
                     </div>
                     <div className="imageBox">
                         <img
-                            src="/img/projects-showcase/close-to-buy/Banner.png"
+                            src={ data?.projectThumbnail }
                             alt=""
                         />
                     </div>
