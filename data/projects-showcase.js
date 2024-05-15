@@ -48,35 +48,35 @@ module.exports = {
                 title: `Accept Orders you wish to complete`,
                 description: `Effortlessly accept orders you wish to complete with our intuitive inline order acceptance feature, ensuring a seamless delivery experience.`,
                 images: [
-                    `/img/projects-showcase/close-to-buy/OnOff.svg`
+                    `/img/projects-showcase/close-to-buy/IncomingOrder.svg`
                 ]
             },
             {
                 title: `User-Friendly Map Interface for Easy Location Finding`,
                 description: `Streamline navigation with our user-friendly Map UI, simplifying location searches and enhancing overall accessibility.`,
                 images: [
-                    `/img/projects-showcase/close-to-buy/OnOff.svg`
+                    `/img/projects-showcase/close-to-buy/MapInterface.svg`
                 ]
             },
             {
                 title: `Precise Delivery & Pickup Details Page for quick reference`,
                 description: `Access detailed delivery and pickup information swiftly with our precise details page, ensuring quick reference and efficient operations.`,
                 images: [
-                    `/img/projects-showcase/close-to-buy/OnOff.svg`
+                    `/img/projects-showcase/close-to-buy/DeliveryAndPickup.svg`
                 ]
             },
             {
                 title: `Quick help & assistance for riders`,
                 description: `Rapid rider assistance and support for immediate help whenever needed.`,
                 images: [
-                    `/img/projects-showcase/close-to-buy/OnOff.svg`
+                    `/img/projects-showcase/close-to-buy/HelpAssistance.svg`
                 ]
             },
             {
                 title: `Performance Analytics Dashboard`,
                 description: `Our performance analytics dashboard provides riders with a comprehensive overview of all completed orders and earnings, empowering them to easily analyze their performance and make informed decisions for optimization.`,
                 images: [
-                    `/img/projects-showcase/close-to-buy/OnOff.svg`
+                    `/img/projects-showcase/close-to-buy/AnalyticsDashboard.svg`
                 ]
             },
         ],
@@ -97,7 +97,7 @@ module.exports = {
                 title: `Competitive Analysis`,
                 description: `In our exploration of the competitive landscape for delivery partner applications, we scrutinized several prominent platforms including Swiggy, Zomato, Dunzo, and Zepto.`,
                 images: [
-                    `https://www.asmitbm.me/articles/swiperead/competitive_analysis.webp`
+                    `/img/projects-showcase/close-to-buy/competetiveAnalysis.svg`
                 ],
                 pointsHeading: `Key Findings`,
                 points: [
@@ -111,7 +111,7 @@ module.exports = {
                 title: `Information Architecture`,
                 description: `To accommodate both beginner and expert users, I wanted to leverage an architecture where there is a single point of start and a single prominent ability to take action in each stage of the journey.`,
                 images: [
-                    `https://www.asmitbm.me/articles/swiperead/ia.webp`
+                    `/img/projects-showcase/close-to-buy/InformationArchitecture.svg`
                 ],
                 pointsHeading: `Key Findings`,
                 points: [
@@ -126,24 +126,32 @@ module.exports = {
                 title: `Inspiration and Moodboard`,
                 description: `In seeking inspiration for our delivery partner application, we draw from the intuitive interfaces and efficient functionalities of industry leaders like Swiggy and Zomato. We aim to replicate the user-friendly experiences offered by these platforms, focusing on simplicity, clarity, and ease of navigation. The moodboard reflects clean and intuitive designs, vibrant visuals, and seamless interactions, inspired by the success of these established delivery apps. By aligning with the proven strategies of industry leaders, we aim to create a delivery partner application that not only meets but exceeds the expectations of our users.`,
                 images: [
-                    `https://www.asmitbm.me/articles/swiperead/moodboard.webp`
+                    `/img/projects-showcase/close-to-buy/moodBoard.svg`
                 ],
             },
             {
                 title: `Low Fidelity Wireframes`,
                 images: [
-                    `https://www.asmitbm.me/articles/swiperead/lofi_one.webp`,
-                    `https://www.asmitbm.me/articles/swiperead/lofi_two.webp`,
+                    `/img/projects-showcase/close-to-buy/lofiWireframing.svg`,
+                    `/img/projects-showcase/close-to-buy/lofiWireframing_2.svg`,
                 ],
             },
             {
                 title: `Final Designs`,
                 images: [
-                    `https://www.asmitbm.me/articles/swiperead/final_design_one.webp`,
-                    `https://www.asmitbm.me/articles/swiperead/final_design_two.webp`,
-                    `/img/projects-showcase/close-to-buy/OnOff.svg`,
-                    `https://www.asmitbm.me/articles/swiperead/cont_reading.gif`,
+                    `/img/projects-showcase/close-to-buy/FinalDesigns.svg`,
+                    `/img/projects-showcase/close-to-buy/FinalDesigns_1.svg`,
+                    `/img/projects-showcase/close-to-buy/FinalDesigns_2.svg`,
+                    `/img/projects-showcase/close-to-buy/FinalDesigns_3.svg`,
                 ],
+            },
+            {
+                title: `Summary`,
+                description: `In summary, our delivery partner application offers a user-friendly solution tailored to the needs of delivery riders, administrators, restaurants, and customers alike. With features such as flexible shift management, precise order tracking, and seamless communication channels, we aim to streamline the delivery process and optimize efficiency. Through extensive research, user interviews, and competitive analysis, we have crafted an application that not only meets but exceeds the expectations of our target users. With a focus on simplicity, reliability, and user satisfaction, our app is poised to make a significant impact in the delivery industry.`,
+            },
+            {
+                title: `Conclusion`,
+                description: `Our delivery partner application represents a culmination of meticulous research, user-centered design, and innovative features aimed at revolutionizing the delivery experience. By addressing the specific needs and challenges faced by delivery riders, we have created a platform that prioritizes flexibility, efficiency, and seamless communication. Through intuitive interfaces, accurate tracking mechanisms, and responsive support, we have endeavored to enhance every aspect of the delivery journey. With a commitment to continual improvement and user satisfaction, we are poised to set new standards in the delivery industry.`,
             },
         ]
     }
