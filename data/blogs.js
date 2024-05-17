@@ -23,4 +23,20 @@ module.exports = [
     meta: "Storage",
     routeName: "array-buffer"
   },
+  {
+    id: 4,
+    img: "/img/blogs-showcase/web-cookies/thumbnail1.jpg",
+    title: "Web Cookies",
+    date: "April 11, 2023",
+    meta: "Storage",
+    routeName: "web-cookies"
+  },
+  {
+    id: 5,
+    img: "/img/blogs-showcase/web-socket/WSmain.png",
+    title: "Web Sockets",
+    date: "April 11, 2023",
+    meta: "Storage",
+    routeName: "web-socket"
+  },
 ];

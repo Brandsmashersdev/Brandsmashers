@@ -57,10 +57,16 @@ const BlogShowcase = ({ blogName }) => {
         <div className="bodySection container max-w-screen-md">
           <div className="paraSectionWrapper">
             {data?.headSections?.map((elem, index) => (
-              <div key={index} className="introParaWrapper">
-                <h1 className="paraTitle">{elem.title}</h1>
-                <h2 className="paraDescription">{elem.description}</h2>
-              </div>
+              // <div key={index} className="introParaWrapper">
+              //   <h1 className="paraTitle">{elem.title}</h1>
+              //   <h2 className="paraDescription">{elem.description}</h2>
+              // </div>
+              <Head
+                key = {index}
+                title1={elem.title}
+                des1={elem.description}
+                images1={elem.images}
+              />
             ))}
           </div>
           <div className="featureSectionWrapper">
@@ -80,6 +86,14 @@ const BlogShowcase = ({ blogName }) => {
               title={elem.title}
               des={elem.description}
               pointsHeading={elem.pointsHeading}
+              pointsArr={elem.points}
+            />
+          ))}
+          {data?.listSections?.map((elem, index) => (
+            <ParaAndPointsForCookies
+              key={index}
+              pointsHeading={elem.pointsHeading}
+              img={elem.images}
               pointsArr={elem.points}
             />
           ))}
@@ -105,12 +119,44 @@ const Feature = ({ title, des, images }) => {
     </div>
   );
 };
+const Head = ({ title1, des1, images1 }) => {
+  return (
+    <div className="featureWrapper">
+      {title1 && <h1 className="featureTitle">{title1}</h1>}
+      <h2 className="featureDescription">{des1}</h2>
+      <div className="imagesWrapper">
+        {images1 &&
+          images1.map((elem, index) => (
+            <div key={index} className="featureImageBox">
+              <img className="featureImage" src={elem} alt="" />
+            </div>
+          ))}
+      </div>
+    </div>
+  );
+};
 
 const ParaAndPoints = ({ title, des, img, pointsHeading, pointsArr }) => {
   return (
     <div className="paraAndPoints">
       <Feature title={title} des={des} images={img} />
       <h1 className="pointsTitle">{pointsHeading}</h1>
+      {pointsArr && (
+        <ul>
+          {pointsArr.map((elem, index) => (
+            <li key={index}>{elem}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+};
+
+const ParaAndPointsForCookies = ({ img, pointsHeading, pointsArr }) => {
+  return (
+    <div className="paraAndPoints">
+      <h1 className="pointsTitle">{pointsHeading}</h1>
+      <Feature images={img} />
       {pointsArr && (
         <ul>
           {pointsArr.map((elem, index) => (

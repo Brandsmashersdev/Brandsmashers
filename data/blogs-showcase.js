@@ -322,5 +322,281 @@ module.exports = {
         `
       },
     ],
+  },
+  'web-cookies': {
+    author: "Tanishq Jain",
+    type: "Technology",
+    date: "20th April, 2024",
+    views: "65",
+    commentCount: 5,
+    title: "Understanding Web Cookies",
+    description: "One key data structure that plays a fundamental role in efficient data handling is the ArrayBuffer. In this article, we'll delve into what an ArrayBuffer is, how it works, and its significance in modern programming.",
+    thumbnail: `/img/blogs-showcase/web-cookies/thumbnail1.jpg`,
+    timeline: [
+      {
+        title: `Author`,
+        value: `Tanishq Jain`
+      },
+      {
+        title: `Category/Topic`,
+        value: `Technology`
+      },
+      {
+        title: `Publication Date`,
+        value: "20th April, 2024"
+      },
+      {
+        title: `Language`,
+        value: "English"
+      },
+    ],
+    headSections: [
+      {
+        description: `If you imagine this after reading web cookies then you are in the right place 😁
+        `,
+        images: [`/img/blogs-showcase/web-cookies/spider.gif`]
+      },
+      {
+        description: `After going through this interesting write-up, your imagination will change forever, and you will have a deep understanding of Web Cookies. Awesome right?
+        `,
+        images: [`/img/blogs-showcase/web-cookies/awesome.gif`]
+      },
+      {
+        title: `What are Web Cookies?`,
+        description: `Cookies are small files of information that a web server generates and sends to a web browser. For example, ecommerce websites use cookies to know what merchandise users have placed in their shopping carts.
+        
+        Web browsers store the cookies they receive for a predetermined period, or for the length of a user's session(the period of time until a user is loggedIn) on a website.
+
+        The cookies that are used on the Internet are also called "HTTP cookies." 
+        Like much of the web, cookies are also sent using the HTTP protocol.
+        `
+      },
+      {
+        title: `In Simpler Terms`,
+        description: `Web cookies are like small notes, websites send to your internet browser. They help the website remember what you did last time you visited. So, when you return, it can show you things you might be interested in or remember your preferences. It's like a little helper that makes your browsing experience smoother.`
+      }
+    ],
+    listSections: [
+      {
+        title: `How Web Cookies Work?`,
+        images: [
+          `/img/blogs-showcase/web-cookies/spidey.gif`
+        ],
+        description: `A web cookie is defined by the HTTP communication protocol as a small text sent by an HTTP server to an HTTP client, which the latter will send back the next time it connects to servers sharing the same domain name. It consists of a text containing an arbitrary sequence of key-value pairs. It is stored on the client's computer for a specific period of time.
+
+
+        For example, if you log in to a website and don't want to log in the next time, sometimes you can check the box "keep my session active" or "remember me". In this case, one or more cookies are created and stored on your computer to automatically log you in the next time you access that website. The cookies can be the following:
+        `,
+
+        points: [
+          `nickname : mypseudo`,
+          `password : azerty`,
+        ]
+      },
+      {
+        title: `Types of Web Cookies?`,
+        description: `All web cookies are not created equal nor do they all serve the same functions. Depending on the type of cookie, it could persist on your browser as long as your session lasts, or for many months. Here are the 4 main types of cookies:`,
+      },
+      { 
+        pointsHeading: `SESSION COOKIES`,
+        images: [
+          `/img/blogs-showcase/web-cookies/clock.gif`
+        ],
+        points: [
+          `These are temporary web cookies that are only present as long as your web browser stays open or your session is active. Once you close your browser or your browser session becomes inactive (after a period of time), these cookies are removed from your device. 
+
+          Session cookies have their uses on various websites. For example, e-commerce websites use session cookies to keep your cart items available while you peruse other product pages in search of new items you want to buy.`,
+        ]
+      },
+      {
+        pointsHeading: `PERSISTENT COOKIES`,
+        images: [
+          `/img/blogs-showcase/web-cookies/now.gif`
+        ],
+        points: [
+          `Persistent (Permanent) cookies last longer than session cookies. The website you visit creates this cookie and attaches an expiration date to it. By law, you can’t make persistent cookies last more than 6 months. 
+          `,
+          `Websites use these types of cookies to remember information about you and provide better experiences. For example, a website can use permanent cookies to remember your login information so you don’t have to re-enter them every time you visit the site. 
+          `,
+        ]
+      },
+      {
+        pointsHeading: `FIRST-PARTY COOKIES`,
+        points: [
+          `These are the cookies created by the website you’re visiting. They are generally used to improve your experience on the site. 
+          `,
+          `For example, these cookies help sites remember your language settings. When you first visit a website and change the language from English to French, the site creates a cookie to help it remember your choice. On your next visit, you see the website in the language you selected last time. 
+          `,
+          `First-party cookies also perform functions like letting you add multiple items to your cart and even remember your login information.
+          `
+        ]
+      },
+      {
+        pointsHeading: `AUTHENTICATION COOKIES`,
+        images: [
+          `/img/blogs-showcase/web-cookies/auth.gif`
+        ],
+        points: [
+          `Authentication cookies help manage user sessions; they are generated when a user logs into an account via their browser. They ensure that sensitive information is delivered to the correct user sessions by associating user account information with a cookie identifier string.
+          `
+        ]
+      },
+      {
+        pointsHeading: `TRACKING COOKIES`,
+        images: [
+          `/img/blogs-showcase/web-cookies/tracking.gif`
+        ],
+        points: [
+          `Tracking cookies are generated by tracking services. They record user activity, and browsers send this record to the associated tracking service the next time they load a website that uses that tracking service.
+          `
+        ]
+      },
+      {
+        pointsHeading: `ZOMBIE COOKIES`,
+        images: [
+          `/img/blogs-showcase/web-cookies/zombie.gif`
+        ],
+        points: [
+          `Like the "zombies" of popular fiction, zombie cookies regenerate after they are deleted. Zombie cookies create backup versions of themselves outside of a browser's typical cookie storage location. They use these backups to reappear within a browser after they are deleted. Zombie cookies are sometimes used by unscrupulous ad networks, and even by cyber attackers.
+          `
+        ]
+      },
+      {
+        title: `Benefits of Web Cookies`,
+        description: [
+          `Optimizing your website for better user experience increases your revenue. Finding issues and solving them keeps visitors on your site for longer, helps them solve issues and make purchases without hassle.
+          `,
+          `All of this would not be possible without cookies to analyze user behavior on your site. Nor will it be possible without cookies in your optimization tool that ensures that a visitor who sees version A of an experiment doesn’t see version B. 
+          `
+        ]
+      },
+      {
+        images: [
+          `/img/blogs-showcase/web-cookies/privacy.gif`
+        ],
+        description: [
+          `As described above, cookies can be used to record browsing activity, including for advertising purposes. However, many users do not want their online behavior to be tracked. Users also lack visibility or control over what tracking services do with the data they collect.
+          `,
+          `Additionally, many websites ask for your permission before storing cookies on your device through cookie consent notices. These notices give you the choice to accept or decline cookies and often provide details about the types of cookies used. By understanding your browser settings and how websites use cookies, you can take charge of your online privacy and tailor your browsing experience to your liking.
+          `
+        ]
+      },
+      {
+        title: `Conclusion`,
+        images: [
+          `/img/blogs-showcase/web-cookies/conclusion.gif`
+        ],
+        description: [
+          `Cookies are an essential part of the modern web browsing experience, allowing websites to remember your preferences and offer personalized experiences. Understanding how cookies work and being aware of how your data is being collected and shared can help you make informed decisions about your online privacy.
+          `
+        ]
+      },
+    ]
+  },
+  'web-socket': {
+    author: "Aryaman Saxena",
+    type: "Technology",
+    date: "20th April, 2024",
+    views: "65",
+    commentCount: 5,
+    title: "WEBSOCKETS",
+    description: "One key data structure that plays a fundamental role in efficient data handling is the ArrayBuffer. In this article, we'll delve into what an ArrayBuffer is, how it works, and its significance in modern programming.",
+    thumbnail: `/img/blogs-showcase/web-socket/WSmain.png`,
+    timeline: [
+      {
+        title: `Author`,
+        value: `Aryaman Saxena`
+      },
+      {
+        title: `Category/Topic`,
+        value: `Technology`
+      },
+      {
+        title: `Publication Date`,
+        value: "20th April, 2024"
+      },
+      {
+        title: `Language`,
+        value: "English"
+      },
+    ],
+    headSections: [
+      {
+        title: `Introduction:`,
+        description: `A WebSocket is a communication protocol that provides full-duplex communication channels over a single TCP connection. It enables a real-time, event-driven connection between a client and a server.
+        Unlike traditional HTTP software, which follows a request-response model, WebSockets allow two-way (bi-directional) communication. This means that the client and the server can send data to each other anytime without continuous polling.         😁
+        `,
+        images: [`/img/blogs-showcase/web-socket/webSocket.png`]
+      },
+    ],
+    listSections: [
+      {
+        title: `What are WebSockets Used For?`,
+        description: `WebSockets are used for real-time, event-driven communication between clients and servers. They are particularly useful for building software applications requiring instant updates, such as real-time chat, messaging, and multiplayer games.
+        `,
+        points: [
+          `In traditional HTTP, the client sends a request to the server, and the server responds with the requested data. This request-response model requires continuous polling from the client to the server, which can result in increased latency and decreased efficiency.          `,
+          `WebSockets establish a persistent connection between the client and the server. This means that once the connection is established, the client and the server can send data to each other at any time without continuous polling requests. This allows real-time communication, where updates can be sent and received instantly.`,
+          `Web Sockets also allow for bi-directional communication, meaning that both the client and the server can send data to each other. This opens up possibilities for more interactive and engaging applications, where the server can process push updates or notifications to the client without the client explicitly requesting them.`
+        ]
+      },
+      {
+        description: `For Example: when a user sends a message in a chat application, it can be instantly delivered to all other users without refreshing the page or making frequent HTTP requests. This results in a more seamless and efficient user experience`,
+        images: [
+          `/img/blogs-showcase/web-socket/WSclient.png`
+        ],
+      },
+      {
+        title: `How WebSockets Work?`,
+        description: `WebSockets revolutionized web communication by enabling real-time, full-duplex interaction between clients and servers. Below, we'll explore a simplified breakdown of how WebSockets function:-`,
+        points: [
+          `Initial HTTP Request: The WebSocket connection begins with a regular HTTP request from the client to the server, typically a handshake request.
+          `,
+          `Upgrade Header: The client sends a special header called "Upgrade" in the HTTP request, indicating its desire to establish a WebSocket connection.
+          `,
+          `Server Acknowledgment: The server, upon receiving the request, checks for the Upgrade header. If present and valid, it responds with a special response code (101 Switching Protocols), indicating that the protocol is switching from HTTP to WebSocket.
+          `,
+          `WebSocket Handshake: After receiving the acknowledgment from the server, the client and server perform a handshake to establish the WebSocket connection. This handshake includes information such as WebSocket version, supported protocols, etc.
+          `,
+          `Bi-Directional Communication: Once the handshake is successful, the WebSocket connection is established. Unlike HTTP, which follows a request-response model, WebSockets enable full-duplex communication, allowing both the client and server to send messages to each other simultaneously.
+          `,
+          `Persistent Connection: Unlike HTTP, which is stateless and closes the connection after each request-response cycle, WebSockets maintain a persistent connection. This means that once established, the connection remains open until either the client or server decides to close it.
+          `,
+          `Data Exchange: With the WebSocket connection established, both the client and server can send data to each other at any time without the overhead of HTTP headers. Data is sent in frames, which can be text or binary, and can also include control frames for various purposes like ping/pong for keep-alive purposes or closing the connection gracefully.
+          `,
+          `Close Connection: Either the client or the server can initiate the closing of the WebSocket connection. This can be done through a specific closing handshake, ensuring that both sides have the opportunity to perform any necessary cleanup operations before the connection is terminated.
+          `,
+        ],
+        images: [
+          `/img/blogs-showcase/web-socket/WebsocketDiagram.png`
+        ]
+      },
+      {
+        title: `Benefits of Websockets:`,
+        description: `WebSockets make the online experience smoother, more interactive, and real-time. So, now let's explore some benefits of WebSockets:-`,
+        points: [
+          `Real-Time Communication: WebSockets allow websites and apps to send and receive messages instantly without having to wait for a response from the server each time. It's like having a direct phone line between the client (your device) and the server (the website or app). 
+          `,
+          `Reduced Latency: With WebSockets, information travels quickly between the client and server, reducing delays or "lag." This means actions happen in real-time, making experiences smoother and more responsive, like chatting or playing games without noticeable delays. 
+          `,
+          `Efficient Data Transfer: Unlike traditional methods where the client constantly asks the server for updates (like repeatedly asking "Are we there yet?"), WebSockets keep a connection open, allowing data to flow back and forth more efficiently, saving bandwidth and server resources.
+          `,
+          `Support for Bi-Directional Communication: WebSockets enable both the client and server to send messages at any time. It's like having a conversation where both parties can speak whenever they want, making interactions more dynamic and flexible.
+          `,
+          `Better Server Performance: Since WebSockets maintain a persistent connection, servers can handle many clients with fewer resources compared to traditional methods, making them ideal for applications with lots of users or real-time updates.
+          `,
+          `Cross-Platform Compatibility: WebSockets work across different devices and platforms, including web browsers, mobile apps, and even Internet of Things (IoT) devices, providing a consistent experience regardless of the user's device.
+          `
+        ],
+        images: [
+          `/img/blogs-showcase/web-socket/WSimg.png`
+        ]
+      },
+      {
+        title: `Conclusion:`,
+        description: `In conclusion, WebSockets revolutionize how we interact with websites and apps, offering instant, bidirectional communication that enhances user experiences. While they come with complexities and considerations, their benefits in reducing latency, improving server efficiency, and enabling real-time interactions make them indispensable for modern web development. By understanding and harnessing the power of WebSockets, developers can create dynamic, engaging applications that keep pace with the demands of today's digital world. So, dive in, explore, and unleash the full potential of WebSockets in your projects!`
+      },
+    ]
   }
 };
+
