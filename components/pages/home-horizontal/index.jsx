@@ -11,6 +11,7 @@ import Contact from "../../Contact";
 import Address from "../../Address";
 import Map from "../../Map";
 import HeaderMobile from "../../header/HeaderMobile";
+import Blog from "../../blog/Blog";
 
 const EdinaHorizontal = () => {
   const [isDark, setIsDark] = useState(false);
@@ -97,6 +98,20 @@ const EdinaHorizontal = () => {
           </div>
           {/* End edian_tm_title */}
           <Portfolio />
+        </div>
+      </div>
+      {/* End Portfolio */}
+
+      <div className="edina_tm_portfolio" id="blog">
+        <div className="container">
+          <div className="edina_tm_title">
+            <h3>Blogs</h3>
+            <p>
+              Dive into a world of captivating stories, informative articles, and thought-provoking discussions. Our blog is a curated collection of experiences, expertise, and discoveries, designed to enrich and engage.
+            </p><br />
+          </div>
+          {/* End edian_tm_title */}
+          <Blog />
         </div>
       </div>
       {/* End Portfolio */}
