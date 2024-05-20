@@ -50,7 +50,7 @@ const Blog = () => {
                 key={item.id}
               >
                 <div className="list_inner">
-                  <div className="image" style={{height: "357px", width: "100%"}}>
+                  <div className="image" style={{height: "357px", width: "100%", backgroundColor: "#fef"}}>
                     <div
                       className="main"
                       style={{

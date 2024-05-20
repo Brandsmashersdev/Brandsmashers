@@ -13,6 +13,7 @@ import Testimonial from "../../redesign/Testimonial";
 import Address from "../../redesign/Address";
 import Contact from "../../redesign/Contact";
 import Map from "../../redesign/Map";
+import Blog from "../../blog/Blog";
 
 const HomeRedesign = () => {
   const [isDark, setIsDark] = useState(false);
@@ -56,7 +57,7 @@ const HomeRedesign = () => {
 
       <div className="redesign_service" id="service">
         <div className="container">
-          <div className="service_section_title">
+          <div className="section_title">
             <h3>What <span className="highlight-text">We</span> Do</h3>
             <p>
               We specialize in crafting innovative software solutions tailored to your business needs. From custom development to cloud solutions, let us drive your digital transformation.
@@ -70,7 +71,7 @@ const HomeRedesign = () => {
 
       <div className="redesign_project" id="portfolio">
         <div className="container">
-          <div className="service_section_title">
+          <div className="section_title">
             <h3>Explore our <span className="highlight-text">Projects</span></h3>
             <p>
               Explore our diverse projects of software solutions, showcasing our expertise in custom development, cloud services, and digital transformation. Discover how we&apos;ve empowered businesses to thrive in the digital age.
@@ -82,6 +83,20 @@ const HomeRedesign = () => {
         </div>
       </div>
       {/* End Portfolio */}
+
+      <div className="redesign_blog" id="blog">
+        <div className="container">
+          <div className="section_title">
+            <h3><span class="highlight-text">Insights</span> & Inspiration</h3>
+            <p>
+              We prioritize simplicity, reliability, and user-centric design to ensure that our solutions not only solve problems but also enhance the overall user experience.
+            </p>
+          </div>
+          {/* End edian_tm_title */}
+          <Blog />
+        </div>
+      </div>
+      {/* End Blog */}
 
       <div className="redesign_testimonials" id="testimonial">
         <div className="container">
@@ -101,21 +116,6 @@ const HomeRedesign = () => {
         </div>
       </div>
       {/* End Testimonial */}
-
-      {/* <div className="edina_tm_news" id="blog">
-        <div className="container">
-          <div className="edina_tm_title">
-            <h3>Blog</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
-            </p>
-          </div> */}
-      {/* End edian_tm_title */}
-      {/* <Blog /> */}
-      {/* </div> */}
-      {/* </div> */}
-      {/* End Blog */}
 
       <div className="redesign_contact" id="contact">
         <div className="container">

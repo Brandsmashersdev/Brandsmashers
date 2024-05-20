@@ -473,7 +473,7 @@ body{
 
 
 
-.service_section_title {
+.section_title {
   width: 100%;
   height: auto;
   clear: both;
@@ -481,14 +481,14 @@ body{
   text-align: center;
   color: #0B3558;
 }
-.service_section_title h3 {
+.section_title h3 {
   color: #0B3558;
   font-size: 45px;
   font-weight: 800;
   margin-bottom: 25px;
   line-height: 1;
 }
-.service_section_title p{
+.section_title p{
   font-weight: bold;
 }
 
@@ -748,7 +748,7 @@ body{
   }
 }
 
-.redesign_project .service_section_title h3{
+.redesign_project .section_title h3{
   margin-bottom: 60px;
 }
 
@@ -782,6 +782,100 @@ body{
 
 
 
+// ------------------------------------------------ Redesign Blogs ------------------------------------------
+
+.redesign_blog {
+  .my_carousel ul li .image {
+    @media screen and (max-width: 1900px) {
+      height: 235px;
+    }
+    @media screen and (max-width: 1500px) {
+      height: 225px;
+    }
+  }
+}
+
+
+.redesign_blog {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  padding: 80px 0px;
+  @media screen and (max-width: 991px) {
+    padding: 90px 0px;
+  }
+  @media screen and (max-width: 575px) {
+    padding: 90px 0px 110px;
+  }
+}
+.news_inner.my_carousel ul li {
+  @media screen and (max-width: 575px) {
+    padding-bottom: 15px;
+  }
+}
+.redesign_blog .news_inner {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  padding-top: 60px;
+}
+.redesign_blog ul li .news_details {
+  width: 100%;
+  float: left;
+  padding-top: 9px;
+  display: flex;
+  justify-content: space-between;
+}
+.redesign_blog ul li .news_details span {
+  font-size: 16px;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.redesign_blog ul li .news_details span a {
+  text-decoration: none;
+  color: #7e7e7e;
+  position: relative;
+  display: inline-block;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.redesign_blog ul li .news_details span a:before {
+  position: relative;
+  content: ".";
+  font-size: 40px;
+  top: -3px;
+  color: #7e7e7e;
+  padding: 0px 5px;
+}
+.redesign_blog ul li .news_details .title {
+  line-height: 1.2;
+}
+.list_inner .news_details .title{
+  font-size: 32px;
+}
+.redesign_blog ul li .news_details .title {
+  text-decoration: none;
+  color: #34495e;
+  font-size: 24px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.redesign_blog .main_content {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: -11;
+  display: none;
+}
+
+
 
 // ----------------------------------------------- Redesign testimonials ------------------------------------------
 
@@ -793,7 +887,7 @@ body{
   clear: both;
   float: left;
   background-color: transparent;
-  padding: 120px 0px 140px 0px;
+  padding: 80px 0px;
   @media screen and (max-width: 991px) {
     padding: 90px 0px 110px 0px;
   }
