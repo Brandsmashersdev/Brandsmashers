@@ -14,6 +14,8 @@ import Address from "../../redesign/Address";
 import Contact from "../../redesign/Contact";
 import Map from "../../redesign/Map";
 import Blog from "../../blog/Blog";
+import Footer from "../../footer/Footer";
+import MainFooter from "../../footer/MainFooter";
 
 const HomeRedesign = () => {
   const [isDark, setIsDark] = useState(false);
@@ -161,7 +163,12 @@ const HomeRedesign = () => {
           </div>
         </div>
       </div>
-      {/* /CONTACT */}
+      {/* END CONTACT */}
+
+      <div>
+        <MainFooter />
+      </div>
+      {/* END MAIN FOOTER */}
     </div>
   );
 };
