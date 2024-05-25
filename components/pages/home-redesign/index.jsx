@@ -166,6 +166,11 @@ const HomeRedesign = () => {
       {/* END CONTACT */}
 
       <div>
+        <Footer />
+      </div>
+      {/* END FOOTER */}
+
+      <div>
         <MainFooter />
       </div>
       {/* END MAIN FOOTER */}

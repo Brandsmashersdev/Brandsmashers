@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import Social from "../Social";
 import portfolioData from "../../data/portfolio";
 import Image from "next/image";
+import Link from "next/link";
 
 Modal.setAppElement("#__next");
 
@@ -51,11 +52,12 @@ const Project = () => {
       <ul data-aos="fade-right" data-aos-duration="1200">
         <Slider {...settings}>
           {portfolioData.map((item) => (
-            <li key={item.id}>
+            <Link target="_blank" href={`projects/${item.projectName}`} key={item.id}>
+            <li>
               <div className="list_inner">
                 <div className="image">
                   <div
-                    onClick={() => handleModle(item?.id)}
+                    // onClick={() => handleModle(item?.id)}
                     className="details"
                   >
                     <Image
@@ -83,6 +85,7 @@ const Project = () => {
                 </div>
               </div>
             </li>
+            </Link>
           ))}
         </Slider>
       </ul>
