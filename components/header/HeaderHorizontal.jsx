@@ -32,7 +32,7 @@ const HeaderHorizontal = () => {
   }, []);
 
   return (
-    <div className={`horizontal-menu ${navbar ? "fixed-header" : ""}`}>
+    <div className={`horizontal-menu ${navbar ? "fixed-header" : ""}`} style={{zIndex:"1000"}}>
       <div className="mob-header">
         <button className="toggler-menu" onClick={handleClick}>
           <div className={click ? "active" : ""}>
