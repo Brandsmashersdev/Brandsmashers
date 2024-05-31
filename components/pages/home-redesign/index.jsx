@@ -50,7 +50,7 @@ const HomeRedesign = () => {
       </header>
       {/* End mobile-header */}
 
-      <HeaderHorizontal />
+      {/* <HeaderHorizontal /> */}
       {/* End Header */}
 
       {/* <Hero /> */}
@@ -103,7 +103,7 @@ const HomeRedesign = () => {
             <NewProjectMobile />
           </div>
         </div>
-      </div>
+      </div> 
       {/* End Portfolio */}
 
       {/* <div className="redesign_blog" id="blog">
@@ -120,7 +120,7 @@ const HomeRedesign = () => {
       </div> */}
       {/* End Blog */}
 
-      <div className="redesign_testimonials" id="testimonial">
+      {/* <div className="redesign_testimonials" id="testimonial">
         <div className="container">
           <div className="edina_tm_title">
             <h3 style={{color:"#7645ff", textAlign: "center", fontSize: "30px"}}>Testimonials</h3>
@@ -128,27 +128,43 @@ const HomeRedesign = () => {
               Explore testimonials that highlight our dedication to exceeding client expectations and delivering exceptional results.
             </p>
           </div>
-          {/* End edian_tm_title */}
+          End edian_tm_title
           <div className="list ">
             <ul>
-              {/* <Testimonial /> */}
+              <Testimonial />
               <Testimonial />
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End Testimonial */}
-{/* 
-      <div className="redesign_contact" id="contact">
-        <div className="container">
-          <div className="edina_tm_title">
-            <h3>Contact</h3>
-            <p>
-              Get in touch with our expert team today to discuss your software needs and take the first step towards digital transformation.
+
+      <div className="redesign_contact" id="contact" style={{padding:"0"}}>
+        <div className="">
+          <div className="edina_tm_title contactheader background">
+        <HeaderHorizontal />
+            <h3 style={{color:"#c9b6ff"}}>Contact</h3>
+            <div className="description">
+            <p style={{color:"white"}}>
+              Get in touch with our expert team today to discuss <br/> your software needs and take the first step towards <br/>digital transformation.
             </p>
+
+            </div>
+            {/* <div >
+              <Calendly/>
+            </div> */}
+            <div className="Calendly-container"> 
+            <h4>Let's collaborate</h4>
+            <p style={{padding:"40px 20px"}}> Networking is key, so let's touch base regularly to ensure we're synchronized and working towards our common goals. Whether we meet up in person or virtually, let's unite our efforts and make a significant impact together.</p>
+            <Link href="https://calendly.com/brandsmashersdev/book-your-meeting" target="/blank" className="mainbtn"> 
+              Book your meeting
+            </Link>
+
+            </div>
           </div>
           <div className="extra_info">
-            <Address />
+            <NewAddress />
+            {/* <Address /> */}
           </div>
           End Address Info
           <div className="mainpart">
@@ -183,7 +199,6 @@ const HomeRedesign = () => {
           </div>
         </div>
       </div>
-      END CONTACT */}
 
       <div className="footer-container">
         <Footer />
