@@ -2,7 +2,7 @@ module.exports = [
   {
     id: 1,
     tooltipId: "product",
-    portfolioImage: "/img/portfolio/Urban.png",
+    portfolioImage: "/img/Urban-company.png",
     portfolioBanner: "/img/portfolio/Tasker-Banner.png",
     portfolioLink: "",
     title: "Taskii",
@@ -11,6 +11,7 @@ module.exports = [
     clientName: "Taskii",
     category: "Mobile App",
     date: "October 22, 2023",
+    classname: "shiftLeft",
     projectDescriptions: (
       <>
         <p>
@@ -26,7 +27,7 @@ module.exports = [
   {
     id: 2,
     tooltipId: "dribbble",
-    portfolioImage: "/img/portfolio/Close2buy.jpg",
+    portfolioImage: "/img/closetobuy.png",
     portfolioBanner: "/img/portfolio/Close2buy-Banner.png",
     portfolioLink: "https://play.google.com/store/apps/details?id=com.close2buy.user",
     title: "Close To Buy",
@@ -35,6 +36,7 @@ module.exports = [
     clientName: "Close To Buy",
     category: "Mobile App",
     date: "February 20, 2024",
+    classname: "shiftRight",
     projectDescriptions: (
       <>
         <p>
@@ -50,15 +52,16 @@ module.exports = [
   {
     id: 3,
     tooltipId: "facebook",
-    portfolioImage: "/img/portfolio/Tasker.jpg",
+    portfolioImage: "/img/taskManagement.png",
     portfolioBanner: "/img/portfolio/TaskerWebqoda.png",
     portfolioLink: "tasker.webqoda.com",
-    title: "Task Management",
+    title: "Task Management", 
     projectName: "task-management",
     meta: "Web Application",
     clientName: "Webqoda",
     category: "Web Application",
     date: "March 20, 2024",
+    classname: "shiftLeft",
     projectDescriptions: (
       <>
         <p>
@@ -78,7 +81,7 @@ module.exports = [
   {
     id: 4,
     tooltipId: "Instagram",
-    portfolioImage: "/img/portfolio/Stockable.png",
+    portfolioImage: "/img/stockit.png",
     portfolioBanner: "/img/portfolio/Stockable-banner.png",
     portfolioLink: "",
     title: "Stockit",
@@ -87,6 +90,7 @@ module.exports = [
     clientName: "Stockit",
     category: "Mobile App",
     date: "October 22, 2022",
+    classname: "shiftRight",
     projectDescriptions: (
       <>
         <p>

@@ -32,7 +32,7 @@ const HeaderHorizontal = () => {
   }, []);
 
   return (
-    <div className={`horizontal-menu ${navbar ? "fixed-header" : ""}`}>
+    <div className={`horizontal-menu ${navbar ? "fixed-header" : ""}`} style={{position: "absolute", top: "0", zIndex: "1000", width: "100%"}}>
       <div className="mob-header">
         <button className="toggler-menu" onClick={handleClick}>
           <div className={click ? "active" : ""}>
@@ -49,21 +49,8 @@ const HeaderHorizontal = () => {
       >
         <div className="sidebar_inner">
           <div className="logo">
-            <Link href="/">
-              <Image
-                width={180}
-                height={40}
-                className="logo_light"
-                src={logo}
-                alt="brand"
-              />
-              <Image
-                width={180}
-                height={55}
-                className="logo_dark"
-                src={logo2}
-                alt="brand"
-              />
+            <Link href="/" style={{color: "#fff"}}>
+              BRANDSMASHERS
             </Link>
           </div>
           {/* End .logo */}
@@ -91,6 +78,7 @@ const HeaderHorizontal = () => {
                         href={val.itemRoute}
                         className={val.activeClass}
                         onClick={handleClick}
+                        style={{color: "white"}}
                       >
                         <Image
                           width={18}

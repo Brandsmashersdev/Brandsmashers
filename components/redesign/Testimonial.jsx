@@ -33,7 +33,7 @@ export default function Testimonial() {
           data-aos-duration="1200"
           data-aos-delay={val.delayAnimation}
         >
-          <div className="list_inner">
+          <div className="list_inner testimonial-box">
             <div className="details">
               <div className="author">
                 <div className="image">
