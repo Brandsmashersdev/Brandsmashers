@@ -1529,7 +1529,7 @@ body.dark .loader_line:after {
   padding-top: 60px;
 }
 .my_carousel {
-  width: 100%;
+  // width: 100%;
   height: auto;
   clear: both;
   float: left;
@@ -1543,9 +1543,9 @@ body.dark .loader_line:after {
   margin: 0px;
 }
 .my_carousel ul li .list_inner {
-  width: 100%;
-  height: auto;
-  clear: both;
+  width: 30%;
+  // height: auto;
+  // clear: both;
   float: left;
   position: relative;
   cursor: pointer;

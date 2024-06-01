@@ -17,37 +17,37 @@ import Testimonial from "../../redesign/Testimonial";
 import Address from "../../redesign/Address";
 import Contact from "../../redesign/Contact";
 import Map from "../../redesign/Map";
-import Blog from "../../blog/Blog";
+import Blog from "../../design-updation/Blog";
 import Footer from "../../footer/Footer";
 
 const HomeRedesign = () => {
-  const [isDark, setIsDark] = useState(false);
+  // const [isDark, setIsDark] = useState(false);
 
-  useEffect(() => {
-    document.querySelector("body").classList.remove("rtl");
-  }, []);
+  // useEffect(() => {
+  //   document.querySelector("body").classList.remove("rtl");
+  // }, []);
 
-  const handleLabelClick = () => {
-    if (isDark) {
-      localStorage.setItem("theme-color", "theme-light");
-      document.querySelector("body").classList.add("theme-light");
-      document.querySelector("body").classList.remove("theme-dark");
-      setIsDark(false);
-    } else {
-      localStorage.setItem("theme-color", "theme-dark");
-      document.querySelector("body").classList.add("theme-dark");
-      document.querySelector("body").classList.remove("theme-light");
-      setIsDark(true);
-    }
-  };
+  // const handleLabelClick = () => {
+  //   if (isDark) {
+  //     localStorage.setItem("theme-color", "theme-light");
+  //     document.querySelector("body").classList.add("theme-light");
+  //     document.querySelector("body").classList.remove("theme-dark");
+  //     setIsDark(false);
+  //   } else {
+  //     localStorage.setItem("theme-color", "theme-dark");
+  //     document.querySelector("body").classList.add("theme-dark");
+  //     document.querySelector("body").classList.remove("theme-light");
+  //     setIsDark(true);
+  //   }
+  // };
 
   return (
-    <div id="redesign_home" className={`home-light ${isDark ? "theme-dark" : ""}`}>
-      <header className="header-area">
+    <div id="redesign_home" >
+      {/* <header className="header-area">
         <div className="header-inner">
           <HeaderMobile />
         </div>
-      </header>
+      </header> */}
       {/* End mobile-header */}
 
       {/* <HeaderHorizontal /> */}
@@ -92,7 +92,7 @@ const HomeRedesign = () => {
             <p style={{textAlign: "center", margin: "auto"}}>
               Explore our diverse projects of software solutions, showcasing our expertise in custom development, cloud services, and digital transformation. Discover how we&apos;ve empowered businesses to thrive in the digital age.
             </p>
-          </div>
+          </div> 
           {/* End edian_tm_title */}
           {/* <Portfolio /> */}
           {/* <Project /> */}
@@ -113,11 +113,11 @@ const HomeRedesign = () => {
             <p>
               We prioritize simplicity, reliability, and user-centric design to ensure that our solutions not only solve problems but also enhance the overall user experience.
             </p>
-          </div>
-          End edian_tm_title
+          </div> */}
+          {/* End edian_tm_title */}
           <Blog />
-        </div>
-      </div> */}
+        {/* </div> */}
+    
       {/* End Blog */}
 
       {/* <div className="redesign_testimonials" id="testimonial">
@@ -202,7 +202,7 @@ const HomeRedesign = () => {
 
       <div className="footer-container">
         <Footer />
-      </div>
+      </div> 
       {/* END FOOTER */}
     </div>
   );
