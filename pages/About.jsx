@@ -1,8 +1,11 @@
 import { useState } from "react";
 import Modal from "react-modal";
-import HeaderHorizontal from "../header/HeaderHorizontal";
+import HeaderHorizontal from "../components/header/HeaderHorizontal";
 import Slider from "react-slick";
-import teamData from "../../data/team_data";
+import teamData from "../data/team_data";
+import Footer from "../components/footer/Footer";
+import useScreenSize from "../data/useScreenSize";
+
 
 Modal.setAppElement("#__next");
 
@@ -11,11 +14,15 @@ const About = () => {
   function toggleModalOne() {
     setIsOpen(!isOpen);
   }
+
+  const screenSize = useScreenSize();
+  const size = screenSize.width>=320 && screenSize.width<=1050 ;
+  const slidesView = size?1:3;
   var settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: slidesView,
     slidesToScroll: 1, 
     autoplay: true,
     responsive: [
@@ -35,10 +42,10 @@ const About = () => {
   return (
     //    ABOUT
     <div id="about" style={{boxSizing:"border-box"}}>
+          <HeaderHorizontal />
         <div id="about1">
-          {/* <HeaderHorizontal /> */}
             <div className="subtitle">About us</div>
-            <div className="description">
+            <div className="description1">
                 <p>
                 Explore the diverse array of technologies we&apos;re passionately engaged with, shaping the future landscape of digital innovation.
                 </p>
@@ -102,6 +109,9 @@ const About = () => {
             </div>
           </div> 
         </div>
+        <div className="footer-container">
+        <Footer />
+      </div>
     </div>
     // /ABOUT
   );

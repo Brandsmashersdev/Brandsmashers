@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
-
+import HeaderHorizontal from "../header/HeaderHorizontal";
 
 
 const heroContent = {
@@ -13,9 +12,9 @@ const Hero1 = () => {
   return (
    
     //    HERO
+
     <div className="redesign_hero" id="home">
       <div className="content">
-
         <div className="extra">
           <p className="slogan" style={{color: "white"}}>Unlocking innovation : Tailored Tech Solution</p>
           <h5
@@ -31,6 +30,7 @@ const Hero1 = () => {
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-delay="300"
+            style={{color: "white"}}
           >
             {heroContent.description}
           </p>
@@ -55,11 +55,6 @@ const Hero1 = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="graphic_container">
-        <div className="shape"></div>
-        <Image height={600} src={} />
-      </div> */}
     </div>
     // /HERO
   );

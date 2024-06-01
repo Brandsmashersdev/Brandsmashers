@@ -21,7 +21,7 @@ const Footer = () => {
               <Link href="/NewHome/Home">
                 BRANDSMASHERS
               </Link>  
-            <p>BrandSmashers is your one-stop destination for cutting-edge IT solutions. Specializing in web development, app development, desktop apps, graphic design, cloud services, and cybersecurity, we empower businesses to thrive in the digital landscape. With expertise, innovation, and a customer-centric approach, we deliver bespoke solutions that elevate brands and drive success. Trust BrandSmashers to revolutionize your digital presence and stay ahead of the curve.</p>
+            <p>BrandSmashers is your one-stop destination for cutting-edge IT solutions. Specializing in web development, app development, desktop apps, graphic design, cloud services, and cybersecurity, we empower businesses to thrive in the digital landscape. With expertise, innovation, and a customer-centric approach, we deliver bespoke solutions that elevate brands and drive success. Trust BrandSmashers to revolutionize your digital presence and stay ahead of the curve.</p>
             </div>
 
             <div className="location">
@@ -34,18 +34,6 @@ const Footer = () => {
           <div className="footer_nav">
 
             <div className="quick-links">
-            <ScrollspyNav
-              scrollTargetIds={[
-                "about",
-                "services",
-                "projects",
-                "blogs",
-                "contact",
-              ]}
-              activeNavClass="active"
-              offset={-80}
-              scrollDuration="100"
-            >
               <h5 style={{marginBottom: "20px"}}>Quick Links</h5>
               <ul className="anchor_nav">
                 {sidebarContent
@@ -65,7 +53,6 @@ const Footer = () => {
                     </li>
                   ))}
               </ul>
-            </ScrollspyNav>
           </div>
           </div>
           
@@ -86,8 +73,8 @@ const Footer = () => {
 
         </div>
         <hr />
-      <div className="bottom-footer">
-      <div>
+      <div className="bottom-footer" style={{alignItems:"center"}}>
+      <div className="footer_logo">
         <ul>
             {socialMediaLink.map((item, index) => (
                     <li key={index} className="social-media">
@@ -105,7 +92,7 @@ const Footer = () => {
                 </ul>
             </div>
 
-            <div>
+            <div className="footer_rights">
             <div className="copy">
           <span>
             &copy; {new Date().getFullYear()} by{" "}

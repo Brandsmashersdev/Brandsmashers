@@ -72,7 +72,9 @@ const Portfolio = () => {
                         <h1 style={{margin:"3px 5px 0px 0px"}}>{item.projectName}</h1>
                         <p>{item.category}</p>
                       </div>
+                      <div className="heading_portfolio">
                         <h5>Learn more</h5>
+                      </div>
         
                       <ReactTooltip
                         id={item.tooltipId}
