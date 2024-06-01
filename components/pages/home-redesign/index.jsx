@@ -13,113 +13,113 @@ import Testimonial from "../../redesign/Testimonial";
 import Address from "../../redesign/Address";
 import Contact from "../../redesign/Contact";
 import Map from "../../redesign/Map";
-import Blog from "../../blog/Blog";
+import Blog from "../../design-updation/Blog";
 import Footer from "../../footer/Footer";
 import MainFooter from "../../footer/MainFooter";
 
 const HomeRedesign = () => {
-  const [isDark, setIsDark] = useState(false);
+  // const [isDark, setIsDark] = useState(false);
 
-  useEffect(() => {
-    document.querySelector("body").classList.remove("rtl");
-  }, []);
+  // useEffect(() => {
+  //   document.querySelector("body").classList.remove("rtl");
+  // }, []);
 
-  const handleLabelClick = () => {
-    if (isDark) {
-      localStorage.setItem("theme-color", "theme-light");
-      document.querySelector("body").classList.add("theme-light");
-      document.querySelector("body").classList.remove("theme-dark");
-      setIsDark(false);
-    } else {
-      localStorage.setItem("theme-color", "theme-dark");
-      document.querySelector("body").classList.add("theme-dark");
-      document.querySelector("body").classList.remove("theme-light");
-      setIsDark(true);
-    }
-  };
+  // const handleLabelClick = () => {
+  //   if (isDark) {
+  //     localStorage.setItem("theme-color", "theme-light");
+  //     document.querySelector("body").classList.add("theme-light");
+  //     document.querySelector("body").classList.remove("theme-dark");
+  //     setIsDark(false);
+  //   } else {
+  //     localStorage.setItem("theme-color", "theme-dark");
+  //     document.querySelector("body").classList.add("theme-dark");
+  //     document.querySelector("body").classList.remove("theme-light");
+  //     setIsDark(true);
+  //   }
+  // };
 
   return (
-    <div id="redesign_home" className={`home-light ${isDark ? "theme-dark" : ""}`}>
-      <header className="header-area">
+    <div id="redesign_home" >
+      {/* <header className="header-area">
         <div className="header-inner">
           <HeaderMobile />
         </div>
-      </header>
+      </header> */}
       {/* End mobile-header */}
 
-      <HeaderHorizontal />
+      {/* <HeaderHorizontal /> */}
       {/* End Header */}
 
       {/* <Hero /> */}
-      <Hero1 />
+      {/* <Hero1 /> */}
       {/* End Hero */}
 
-      <About />
+      {/* <About /> */}
       {/* End Hero */}
 
-      <div className="redesign_service" id="service">
+      {/* <div className="redesign_service" id="service">
         <div className="container">
           <div className="section_title">
             <h3>What <span className="highlight-text">We</span> Do</h3>
             <p>
               We specialize in crafting innovative software solutions tailored to your business needs. From custom development to cloud solutions, let us drive your digital transformation.
             </p>
-          </div>
+          </div> */}
           {/* End edian_tm_title */}
-          <Service />
-        </div>
-      </div>
+          {/* <Service /> */}
+        {/* </div>
+      </div> */}
       {/* End Services */}
 
-      <div className="redesign_project" id="portfolio">
+      {/* <div className="redesign_project" id="portfolio">
         <div className="container">
           <div className="section_title">
             <h3>Explore our <span className="highlight-text">Projects</span></h3>
             <p>
               Explore our diverse projects of software solutions, showcasing our expertise in custom development, cloud services, and digital transformation. Discover how we&apos;ve empowered businesses to thrive in the digital age.
             </p>
-          </div>
+          </div> */}
           {/* End edian_tm_title */}
           {/* <Portfolio /> */}
-          <Project />
+          {/* <Project />
         </div>
-      </div>
+      </div> */}
       {/* End Portfolio */}
 
       <div className="redesign_blog" id="blog">
-        <div className="container">
-          <div className="section_title">
+        {/* <div className="container"> */}
+          {/* <div className="section_title">
             <h3><span class="highlight-text">Insights</span> & Inspiration</h3>
             <p>
               We prioritize simplicity, reliability, and user-centric design to ensure that our solutions not only solve problems but also enhance the overall user experience.
             </p>
-          </div>
+          </div> */}
           {/* End edian_tm_title */}
           <Blog />
-        </div>
+        {/* </div> */}
       </div>
       {/* End Blog */}
 
-      <div className="redesign_testimonials" id="testimonial">
+      {/* <div className="redesign_testimonials" id="testimonial">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Testimonials</h3>
             <p>
               Explore testimonials that highlight our dedication to exceeding client expectations and delivering exceptional results.
             </p>
-          </div>
+          </div> */}
           {/* End edian_tm_title */}
-          <div className="list ">
-            <ul>
+          {/* <div className="list ">
+            <ul> */}
               {/* <Testimonial /> */}
-              <Testimonial />
+              {/* <Testimonial />
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End Testimonial */}
 
-      <div className="redesign_contact" id="contact">
+      {/* <div className="redesign_contact" id="contact">
         <div className="container">
           <div className="edina_tm_title">
             <h3>Contact</h3>
@@ -129,9 +129,9 @@ const HomeRedesign = () => {
           </div>
           <div className="extra_info">
             <Address />
-          </div>
+          </div> */}
           {/* End Address Info */}
-          <div className="mainpart">
+          {/* <div className="mainpart">
             <div
               className="left"
               data-aos="fade-right"
@@ -144,13 +144,13 @@ const HomeRedesign = () => {
                   <br />
                   <span> design work or partnerships.</span>
                 </p>
-              </div>
+              </div> */}
               {/* End title */}
-              <div className="fields">
+              {/* <div className="fields">
                 <Contact />
-              </div>
+              </div> */}
               {/* End Contact Form */}
-            </div>
+            {/* </div>
             <div
               className="right"
               data-aos="fade-right"
@@ -158,21 +158,21 @@ const HomeRedesign = () => {
               data-aos-delay="400"
             >
               <Map />
-            </div>
+            </div> */}
             {/* End Map */}
-          </div>
+          {/* </div>
         </div>
-      </div>
+      </div> */}
       {/* END CONTACT */}
 
-      <div>
+      {/* <div>
         <Footer />
-      </div>
+      </div> */}
       {/* END FOOTER */}
 
-      <div>
+      {/* <div>
         <MainFooter />
-      </div>
+      </div> */}
       {/* END MAIN FOOTER */}
     </div>
   );
