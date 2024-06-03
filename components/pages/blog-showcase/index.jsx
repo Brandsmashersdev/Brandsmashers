@@ -3,12 +3,16 @@ import blogsShowcase from "../../../data/blogs-showcase";
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { MdOutlineChat } from "react-icons/md";
+import Footer from "../../footer/Footer";
+import HeaderHorizontal from "../../header/InsideHeader";
 
 const BlogShowcase = ({ blogName }) => {
   const data = blogName && blogsShowcase[blogName];
 
   return (
-    <div className="blog-container">
+    <>
+      <HeaderHorizontal />
+    <div className="blog-container_data">
       <div className="container max-w-screen-lg introSectionWrapper">
         <br></br><br></br>
         <div className="introSection">
@@ -16,8 +20,8 @@ const BlogShowcase = ({ blogName }) => {
             { data?.title }
           </h1>
 
-          <div className="blogDetails">
-            <div className="flexContainer">
+          <div className="blogDetails" >
+            <div className="flexContainer" >
               <div id="authorImg"></div>
               <p>{data?.author}</p>
             </div>
@@ -89,17 +93,13 @@ const BlogShowcase = ({ blogName }) => {
               pointsArr={elem.points}
             />
           ))}
-          {data?.listSections?.map((elem, index) => (
-            <ParaAndPointsForCookies
-              key={index}
-              pointsHeading={elem.pointsHeading}
-              img={elem.images}
-              pointsArr={elem.points}
-            />
-          ))}
         </div>
       </div>
+      <div className="footer-container">
+        <Footer />
+      </div> 
     </div>
+    </>
   );
 };
 
@@ -152,20 +152,5 @@ const ParaAndPoints = ({ title, des, img, pointsHeading, pointsArr }) => {
   );
 };
 
-const ParaAndPointsForCookies = ({ img, pointsHeading, pointsArr }) => {
-  return (
-    <div className="paraAndPoints">
-      <h1 className="pointsTitle">{pointsHeading}</h1>
-      <Feature images={img} />
-      {pointsArr && (
-        <ul>
-          {pointsArr.map((elem, index) => (
-            <li key={index}>{elem}</li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
-};
 
 export default BlogShowcase;

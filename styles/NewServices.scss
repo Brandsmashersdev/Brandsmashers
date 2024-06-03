@@ -1,0 +1,159 @@
+
+.background {
+    background-image: url("../public/img/Background.jpg");
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+}
+
+.redesign_service {
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  background-color: transparent;
+  // padding: 120px 0px;
+  }
+  .service_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card_item {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .list-inner {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px;
+    margin-top: 5%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    color: black;
+    font-size: large;
+    background-color: white;
+  }
+  .list-inner-right {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 10px;
+    margin-top: 5%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    color: black;
+    font-size: large;
+    background-color: white;
+  }
+  .image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image_wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* Maintain aspect ratio */
+  }
+  // .shiftLeft, .shiftRight{
+  //   border-radius: 8px;
+  // }
+
+  // .shiftRight{
+  //   float: right;
+  // }
+  // .shiftLeft{
+  //   float: left;
+  // }
+
+  
+  .description_services {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+  }
+  .description_services p {
+    color:black;
+    font-size:18px;
+    line-height:35px;
+    @media screen and ((min-width:320px) and (max-width:480px)) {
+      font-size: 16px;      
+    }
+  }
+  .description_services h3 {
+    margin-top: 0;
+    line-height: 40px;
+  }
+  .description_list {
+    margin-top: 10px;
+  }
+  .description_list ul {
+    padding: 0;
+  }
+  .description_list li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  .card_item.odd .list_inner {
+    flex-direction: row-reverse;
+  }
+  @media (max-width: 768px) {
+    .list_inner {
+      flex-direction: column;
+    }
+    .card_item.odd .list_inner {
+      flex-direction: column;
+    }
+    .image {
+      width: 100%;
+    }
+  }
+
+
+  .toggle-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #c9b6ff;
+  background-image: linear-gradient(45deg, #2e04ab 0%, #c9b6ff  51%, #2e04ab  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: max-content;
+  font-size: large;
+  
+}
+
+// .shiftLeft, .shiftRight{
+//   height: 650px;
+//   width: 800px;
+// }
+
+  
+  
+  .toggle-button:hover {
+    background-position: right center;
+  /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+} /* Darker blue on hover */

@@ -1,5 +1,5 @@
 body{
-  background-image: url(/img/redesign/bg.jpg) !important;
+  // background-image: url(/img/redesign/bg.jpg) !important;
   // background-image: url(https://png.pngtree.com/background/20220726/original/pngtree-portrait-watercolor-blue-sky-abstract-texture-picture-image_1789044.jpg) !important;
   background-size: cover;
   background-position: center;
@@ -37,7 +37,6 @@ body{
 }
 
 .hello {
-  color: #0B3558;
   font-weight: 700;
   font-size: 80px;
   line-height: 90px;
@@ -79,6 +78,7 @@ body{
   transition: all 0.3s ease;
   @media screen and (max-width: 480px) {
     font-size: 16px;
+    text-align: center;
   }
 }
 .redesign_hero .edina_tm_button a:hover{
@@ -482,7 +482,7 @@ body{
   color: #0B3558;
 }
 .section_title h3 {
-  color: #0B3558;
+  color:rgb(201, 182,255);
   font-size: 45px;
   font-weight: 800;
   margin-bottom: 25px;
@@ -498,17 +498,17 @@ body{
   clear: both;
   float: left;
   background-color: transparent;
-  padding: 60px 0px 0px 0px;
-  @media screen and (max-width: 991px) {
-    padding: 0px 0px 60px 0px;
-  }
+  // padding: 60px 0px 0px 0px;
+  // @media screen and (max-width: 991px) {
+  //   padding: 0px 0px 60px 0px;
+  // }
 }
 .redesign_service .service_list {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
-  padding-top: 60px;
+  // padding-top: 60px;
 }
 .redesign_service ul {
   margin: 0px 0px 0px -30px;
@@ -672,7 +672,7 @@ body{
   z-index: 5;
 }
 
-.edina_tm_modalbox .description_wrap {
+.edina_tm_modalbox .wrap {
   position: relative;
   width: 100%;
   height: 100%;
@@ -735,7 +735,7 @@ body{
   clear: both;
   float: left;
   padding: 150px 0px 120px 0px;
-  background-image: url(/img/redesign/project-bg.svg);
+  // background-image: url(/img/redesign/project-bg.svg);
   background-size: cover;
   @media screen and (max-width: 991px) {
     padding: 90px 0px 80px 0px;
@@ -801,7 +801,7 @@ body{
   height: auto;
   clear: both;
   float: left;
-  padding: 80px 0px;
+  // padding: 80px 0px;
   @media screen and (max-width: 991px) {
     padding: 90px 0px;
   }
@@ -815,19 +815,21 @@ body{
   }
 }
 .redesign_blog .news_inner {
-  width: 100%;
+  width: 95%;
   height: auto;
   clear: both;
   float: left;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 .redesign_blog ul li .news_details {
+
   width: 100%;
   float: left;
   padding-top: 9px;
 }
 .redesign_blog ul li .news_details span {
   font-size: 16px;
+  margin-left: 150px;
   display: inline-block;
   padding-bottom: 5px;
 }
@@ -858,11 +860,15 @@ body{
   font-size: 32px;
 }
 .redesign_blog ul li .news_details .title {
+  // margin-left: 150px;
+  text-align: center;
   text-decoration: none;
-  color: #34495e;
+  color: #030B14;
   font-size: 24px;
   font-weight: 600;
   transition: all 0.3s ease;
+  padding: 25dign_px;
+  margin-top: 18px;
 }
 
 .redesign_blog .main_content {
@@ -919,7 +925,7 @@ body{
   float: left;
   position: relative;
   background-color: #fff;
-  padding: 50px 50px 60px 50px;
+  // padding: 50px 50px 60px 50px;
   border-radius: 6px;
   margin-bottom: 30px;
   @media screen and (max-width: 767px) {
@@ -1015,7 +1021,7 @@ body{
   .icon {
     width: 55px;
     height: 55px;
-    background: #34495e;
+    background: #071b3c;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1046,9 +1052,10 @@ body{
   float: left;
   padding-top: 60px;
   margin-bottom: 30px;
+  margin-top: 300px;
 }
 .redesign_contact .extra_info .wrapper {
-  margin: 0px 0px 0px -30px;
+  // margin: 0px 0px 0px -30px;
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
@@ -1062,9 +1069,10 @@ body{
 .redesign_contact .extra_info .wrapper > li .list_inner {
   display: flex;
   align-items: flex-start;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 33px 35px 41px 35px;
   border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   @media screen and (max-width: 1199px) {
     padding: 20px;
   }
@@ -1192,15 +1200,10 @@ body{
 .redesign_contact .edina_tm_button button {
   border-radius: 6px;
   padding: 11px 33px;
-  background: #fff;
-}
-.redesign_contact .edina_tm_button button:hover {
-  color: #fff;
-  background-color: #1a1a1a;
-  border-color: #1a1a1a;
+  // background: #fff;
 }
 .redesign_contact .right {
-  width: 50%;
+  width: 80%;
   margin-left: 30px;
 }
 .redesign_contact .right .google-map {

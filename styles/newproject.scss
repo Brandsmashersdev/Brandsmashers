@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #7645ff; /* blue */
+    --secondary-color: #fff; /* gray */
+    /* Add more variables as needed */
+}
+
+.project-container {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.project-list-item {
+    width: 100%;
+    border: 1px solid gray;
+    margin-bottom: 40px;
+    padding: 0px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(6, 6, 8, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.shiftLeft {
+    float: left;
+    margin-right: 30px; 
+}
+
+.shiftRight {
+    float: right;
+    margin-left: 30px; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.mobile-project-view {
+    display: none;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .details h1 {
+        font-size: x-large;
+    }
+    .mobile-project-view {
+        display: block;
+    }
+    .desktop-project-view {
+        display: none;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .details h1 {
+        font-size: x-large;
+    }
+    .details p {
+        line-height: 25px;
+    }
+}

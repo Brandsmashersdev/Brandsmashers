@@ -56,7 +56,7 @@ const Address = () => {
           data-aos-delay={item.animDelay}
           key={item.id}
         >
-          <div className="list_inner">
+          <div className="list_inner addressCard">
             <div className="icon">
               <Image width={25} height={25} src={item.iconImg} alt="icon" />
             </div>

@@ -5,6 +5,7 @@ import sidebarContent from "../../data/sidebar";
 import Image from "next/image";
 import logo from "../../public/img/logo/fullLogo.png";
 import logo2 from "../../public/img/logo/fullLogo.png";
+import portfolioData from "../../data/portfolio";
 
 // sidebar footer bottom content
 const sidebarFooterContent = {
@@ -16,7 +17,7 @@ const sidebarFooterContent = {
 const HeaderHorizontal = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-
+  const data = {about:"/about/about"}
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
@@ -32,9 +33,9 @@ const HeaderHorizontal = () => {
   }, []);
 
   return (
-    <div className={`horizontal-menu ${navbar ? "fixed-header" : ""}`}>
+    <div className={`horizontal-menu ${navbar ? "fixed-header" : ""}`} style={{position:"absolute",zIndex:'10000',width:"100%"}}>
       <div className="mob-header">
-        <button className="toggler-menu" onClick={handleClick}>
+        <button className="toggler-menu" onClick={handleClick} >
           <div className={click ? "active" : ""}>
             <span></span>
             <span></span>
@@ -47,69 +48,54 @@ const HeaderHorizontal = () => {
       <div
         className={click ? "edina_tm_sidebar  menu-open" : "edina_tm_sidebar"}
       >
-        <div className="sidebar_inner">
-          <div className="logo">
+        <div className="sidebar_inner" >
+          {/* <div className="logo">
             <Link href="/">
               <Image
                 width={180}
                 height={40}
-                className="logo_light"
+                className="logo_light custom"
                 src={logo}
                 alt="brand"
               />
               <Image
                 width={180}
                 height={55}
-                className="logo_dark"
+                className="logo_dark custom"
                 src={logo2}
                 alt="brand"
               />
             </Link>
+          </div> */}
+          <div className="main_heading">
+            <p>BRANDSMASHERS</p>
           </div>
           {/* End .logo */}
 
-          <div className="menu">
-            <ScrollspyNav
-              scrollTargetIds={[
-                "home",
-                "about",
-                "service",
-                "portfolio",
-                "blog",
-                "testimonial",
-                "contact",
-              ]}
-              activeNavClass="active"
-              offset={-80}
-              scrollDuration="100"
-            >
+          <div className="menu"  >
+            
               <ul className="anchor_nav">
                 {sidebarContent.map((val, i) => (
-                  <li key={i}>
-                    <div className="list_inner">
-                      <a
+                  <li  >
+                    <div className="list_inner" >
+                      <Link
                         href={val.itemRoute}
-                        className={val.activeClass}
-                        onClick={handleClick}
-                      >
-                        <Image
-                          width={18}
-                          height={18}
-                          className="svg custom"
-                          src={`/img/svg/${val.icon}.svg`}
-                          alt="icon"
-                        />
+                        legacyBehavior
+                        target={"_blank"}
+                        key={i}
+                        >
+                          <a>
                         {val.itemName}
-                      </a>
+                        </a>
+                      </Link>
                     </div>
                   </li>
                 ))}
               </ul>
-            </ScrollspyNav>
           </div>
           {/* End .menu */}
 
-          <div className="author">
+          {/* <div className="author">
             <div className="inner">
               <div className="image">
                 <div
@@ -126,7 +112,7 @@ const HeaderHorizontal = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* End author */}
         </div>
       </div>
