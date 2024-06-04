@@ -25,8 +25,8 @@ const Contact = () => {
 
             <div className="contact-section">
             <div className="Calendly-container">
-              <h4>Let's collaborate</h4>
-              <p style={{ padding: "40px 20px" }}> Networking is key, so let's touch base regularly to ensure we're synchronized and working towards our common goals. Whether we meet up in person or virtually, let's unite our efforts and make a significant impact together.</p>
+              <h4>Let &apos;s collaborate</h4>
+              <p style={{ padding: "40px 20px" }}> Networking is key, so let&apos;s touch base regularly to ensure we&apos;re synchronized and working towards our common goals. Whether we meet up in person or virtually, let&apos;s unite our efforts and make a significant impact together.</p>
               <Link href="https://calendly.com/brandsmashersdev/book-your-meeting" target="/blank" className="mainbtn">
                 Book your meeting
               </Link>

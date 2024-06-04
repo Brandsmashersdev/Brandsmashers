@@ -51,7 +51,7 @@ const About = () => {
                 </p>
             </div>
             <div className="button1">
-                <a className="talk_to_us" href="/Contact">Talk To Us</a>
+                <a className="talk_to_us" href="/contact">Talk To Us</a>
             </div>
         </div>
         

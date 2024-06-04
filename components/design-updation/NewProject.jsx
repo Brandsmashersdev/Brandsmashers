@@ -12,7 +12,7 @@ const Project = () => {
       <div data-aos="fade-right" data-aos-duration="1200" className="project-container">
       
           {portfolioData.map((item) => (
-            <div className="project-list-item">
+            <div className="project-list-item" key={item.id}>
               <div className="list_inner">
                 <div className="image">
                   <div

@@ -76,7 +76,7 @@ const HeaderHorizontal = () => {
             
               <ul className="anchor_nav">
                 {sidebarContent.map((val, i) => (
-                  <li  >
+                  <li key={val.id} >
                     <div className="list_inner" >
                       <Link
                         href={val.itemRoute}
