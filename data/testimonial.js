@@ -8,7 +8,7 @@ module.exports = [
   },
   {
     img: "2",
-    desc: `With Brandsmashers innovative software solutions, we've experienced unparalleled efficiency and growth in our business`,
+    desc: `With Brandsmashers innovative software solutions, we've experienced unparalleled efficiency and growth in our business.`,
     name: "Fabian Gattuzo",
     designation: "CTO",
     delayAnimation: "100",
@@ -18,6 +18,6 @@ module.exports = [
     desc: `Thanks to Brandsmasher expertise, our transition to the cloud was smooth and seamless, resulting in significant cost savings and improved scalability`,
     name: "Alizee Bonita",
     designation: "Director of Operations",
-    delayAnimation: "200",
-  },
+    delayAnimation:"200",
+},
 ];

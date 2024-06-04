@@ -1,34 +1,32 @@
 module.exports = [
-  { icon: "home", itemName: "Home", itemRoute: "#home", activeClass: "active" },
-  { icon: "human", itemName: "About", itemRoute: "#about", activeClass: "" },
   {
-    icon: "service",
+    id:1, 
+    itemName: "Home", 
+    itemRoute: "/", 
+    activeClass: "active" 
+  },
+  {
+    id:2, 
+    itemName: "About", 
+    itemRoute: "About", 
+    activeClass: "active" 
+  },
+  {
+    id:3,
     itemName: "Services",
-    itemRoute: "#service",
-    activeClass: "",
+    itemRoute: "service",
+    activeClass: "active",
   },
   {
-    icon: "portfolio",
-    itemName: "Projects",
-    itemRoute: "#portfolio",
-    activeClass: "",
-  },
-  {
-    icon: "blog",
+    id:4,
     itemName: "Blogs",
-    itemRoute: "#blog",
-    activeClass: "",
+    itemRoute: "Blog",
+    activeClass: "active",
   },
   {
-    icon: "testimonial",
-    itemName: "Testimonials",
-    itemRoute: "#testimonial",
-    activeClass: "",
-  },
-  {
-    icon: "contact",
+    id:5,
     itemName: "Contact",
-    itemRoute: "#contact",
-    activeClass: "",
+    itemRoute: "contact",
+    activeClass: "active",
   },
 ];
