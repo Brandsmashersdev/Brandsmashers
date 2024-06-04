@@ -72,20 +72,13 @@ const Sidebar = () => {
                 {sidebarContent.map((val, i) => (
                   <li key={i}>
                     <div className="list_inner">
-                      <a
+                      <Link
                         href={val.itemRoute}
                         className={val.activeClass}
                         onClick={handleClick}
                       >
-                        <Image
-                          width={18}
-                          height={18}
-                          className="svg custom"
-                          src={`img/svg/${val.icon}.svg`}
-                          alt="icon"
-                        />
                         {val.itemName}
-                      </a>
+                      </Link>
                     </div>
                   </li>
                 ))}
@@ -94,7 +87,7 @@ const Sidebar = () => {
           </div>
           {/* End .menu */}
 
-          <div className="author">
+          {/* <div className="author">
             <div className="inner">
               <div className="image">
                 <div
@@ -111,7 +104,7 @@ const Sidebar = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* End author */}
         </div>
       </div>

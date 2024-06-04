@@ -2,6 +2,8 @@ import { useRouter } from "next/router";
 import React from "react";
 import projectsShowcase from "../../../data/projects-showcase.js";
 import Image from "next/image";
+import HeaderHorizontal from "../../header/InsideHeader.jsx";
+import Footer from "../../footer/Footer.jsx";
 // import bannerImg from '@/public/img/projects-showcase/close-to-buy/Banner.png'
 const IntroAndParagraph = ({ title, paraDes }) => {
     return (
@@ -50,6 +52,7 @@ const ProjectShowcase = () => {
     const data = projectName && projectsShowcase[projectName];
     return (
         <div>
+            <HeaderHorizontal />
             <div className="container max-w-screen-lg introSectionWrapper">
                 <h1 className="topTitleText">Projects.</h1>
                 <div className="introSection">
@@ -133,6 +136,9 @@ const ProjectShowcase = () => {
                     </div>
                 </div>
             </div>
+            <div className="footer-container">
+        <Footer />
+      </div> 
         </div>
     );
 };

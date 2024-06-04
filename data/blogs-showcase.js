@@ -147,7 +147,7 @@ module.exports = {
       },
       {
         title: `Advancing Web Security:`,
-        description: `mena like the Internet of Things (IoT), cloud computing, and artificial intelligence bring forth new vulnerabilities that require proactive attention. Furthermore, the proliferation of mobile devices and the increasing sophistication of web applications accentuate the importance of implementing robust security measures.
+        description: `Phenomena like the Internet of Things (IoT), cloud computing, and artificial intelligence bring forth new vulnerabilities that require proactive attention. Furthermore, the proliferation of mobile devices and the increasing sophistication of web applications accentuate the importance of implementing robust security measures.
         In response to these evolving challenges, the cybersecurity community is continuously innovating,
         striving to develop novel approaches to fortify web security. From cutting-edge machine learning
         algorithms designed for threat detection to innovative blockchain solutions for identity
