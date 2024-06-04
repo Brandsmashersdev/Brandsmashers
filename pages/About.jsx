@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import teamData from "../data/team_data";
 import Footer from "../components/footer/Footer";
 import useScreenSize from "../data/useScreenSize";
+import Link from "next/link";
 
 
 Modal.setAppElement("#__next");
@@ -51,7 +52,7 @@ const About = () => {
                 </p>
             </div>
             <div className="button1">
-                <a className="talk_to_us" href="/contact">Talk To Us</a>
+                <Link className="talk_to_us" href="/contact">Talk To Us</Link>
             </div>
         </div>
         
