@@ -181,7 +181,7 @@
     
     .description{
         margin: 60px;
-        font-size: 16px;
+        font-size: 15px;
         
     }
     .contact_form{
@@ -227,5 +227,69 @@
       bottom: 170px;
     }
   }
-  
- 
+//   @media screen and (min-width:1900px)
+// {
+//   .description{
+//     font-size: 40px;
+//     text-align: center;
+//     margin-right: 30px;
+//   }
+// }
+// @media screen and ((min-width: 1201px) and (max-width:1900px)){
+//   .description{
+//     font-size: 32px;
+//     margin-right: 450px;
+//   }
+// }
+// @media screen and ((min-width:1025px) and (max-width:1200px))
+// {
+//   .subtitle{
+//     margin-top: 35px;
+//   }
+//   .description{
+//     font-size: 25px;
+//     margin-right: 350px;
+//   }
+//   #about1{
+//     height: auto;
+//   }
+// }
+// @media screen and ((min-width:769px) and (max-width:1024px))
+// {
+//   .subtitle{
+//     margin-top: 35px;
+//   }
+//   .description{
+//     font-size: 23px;
+//     margin-right: 300px;
+//   }
+//   #about1{
+//     background-position-x:55%;
+//     height: auto;
+//   }  
+// }
+//   @media screen and ((min-width:481px) and (max-width:768px))
+//   {
+//     .subtitle{
+//       margin-top: 35px;
+//     }
+//     .description{
+//       font-size: 25px;
+//       margin-right: 100px;
+//     }
+//     #about1{
+//       height: auto;
+//       background-position-x:45%;
+//     }
+//   }
+//   @media screen and ((min-width:320px) and (max-width:480px))
+//   {
+//       .description{
+//           font-size: 18px;
+
+//       }
+//       #about1{
+//         background-position-x:35%;
+//         height: auto;
+//       }
+//   }

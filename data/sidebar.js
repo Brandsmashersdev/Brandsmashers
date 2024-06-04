@@ -14,19 +14,19 @@ module.exports = [
   {
     id:3,
     itemName: "Services",
-    itemRoute: "Service",
+    itemRoute: "service",
     activeClass: "active",
   },
   {
     id:4,
     itemName: "Blogs",
     itemRoute: "Blog",
-    activeClass: "",
+    activeClass: "active",
   },
   {
     id:5,
     itemName: "Contact",
-    itemRoute: "Contact",
-    activeClass: "",
+    itemRoute: "contact",
+    activeClass: "active",
   },
 ];

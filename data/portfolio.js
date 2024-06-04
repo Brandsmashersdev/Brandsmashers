@@ -1,20 +1,20 @@
 module.exports = [
-  {
-    id: 1,
-    tooltipId: "product",
-    portfolioImage: "/img/Urban-company.png",
-    portfolioBanner: "/img/portfolio/Tasker-Banner.png",
-    portfolioLink: "",
-    title: "Taskii",
-    projectName: "taskii",
-    meta: "Product",
-    clientName: "Taskii",
-    category: "Mobile App",
-    date: "October 22, 2023",
-    classname: "shiftLeft",
-    projectDescriptions: "Taskii enables service providers to create detailed profiles, share insights, and manage schedules. Users seeking home services can browse profiles, view ratings, and request bids. Taskii's transparent bid system allows users to compare quotes and select professionals based on cost and expertise, simplifying the process of finding reliable services."
+  // {
+  //   id: 1,
+  //   tooltipId: "product",
+  //   portfolioImage: "/img/Urban-company.png",
+  //   portfolioBanner: "/img/portfolio/Tasker-Banner.png",
+  //   portfolioLink: "",
+  //   title: "Taskii",
+  //   projectName: "taskii",
+  //   meta: "Product",
+  //   clientName: "Taskii",
+  //   category: "Mobile App",
+  //   date: "October 22, 2023",
+  //   classname: "shiftLeft",
+  //   projectDescriptions: "Taskii enables service providers to create detailed profiles, share insights, and manage schedules. Users seeking home services can browse profiles, view ratings, and request bids. Taskii's transparent bid system allows users to compare quotes and select professionals based on cost and expertise, simplifying the process of finding reliable services."
 
-  },
+  // },
   {
     id: 2,
     tooltipId: "dribbble",
