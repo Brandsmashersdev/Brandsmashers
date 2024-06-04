@@ -10,34 +10,32 @@ Modal.setAppElement("#__next");
 const Contact = () => {
   return (
     <div>
-        <div className="redesign_contact" id="contact" style={{padding:"0"}}>
+      <div className="redesign_contact" id="contact" style={{ padding: "0" }}>
         <HeaderHorizontal />
         <div className="">
           <div className="edina_tm_title contactheader background">
-            <h3 style={{color:"#c9b6ff"}}>Contact</h3>
+            <div className="subtitle" style={{ color: "#c9b6ff" }}>Contact</div>
             <div className="description">
-            <p style={{color:"white"}}>
-              Get in touch with our expert team today to discuss <br/> your software needs and take the first step towards <br/>digital transformation.
-            </p>
-
-            </div>
-            {/* <div >
-              <Calendly/>
-            </div> */}
-            <div className="Calendly-container"> 
-            <h4>Let's collaborate</h4>
-            <p style={{padding:"40px 20px"}}> Networking is key, so let's touch base regularly to ensure we're synchronized and working towards our common goals. Whether we meet up in person or virtually, let's unite our efforts and make a significant impact together.</p>
-            <Link href="https://calendly.com/brandsmashersdev/book-your-meeting" target="/blank" className="mainbtn"> 
-              Book your meeting
-            </Link>
+              <p style={{ color: "white" }}>
+                Get in touch with our expert team today to discuss your software needs and take the first step towards digital transformation.
+              </p>
 
             </div>
           </div>
+
+            <div className="contact-section">
+            <div className="Calendly-container">
+              <h4>Let's collaborate</h4>
+              <p style={{ padding: "40px 20px" }}> Networking is key, so let's touch base regularly to ensure we're synchronized and working towards our common goals. Whether we meet up in person or virtually, let's unite our efforts and make a significant impact together.</p>
+              <Link href="https://calendly.com/brandsmashersdev/book-your-meeting" target="/blank" className="mainbtn">
+                Book your meeting
+              </Link>
+            </div>
           <div className="extra_info">
             <NewAddress />
             {/* <Address /> */}
           </div>
-          End Address Info
+
           <div className="mainpart">
             <div
               className="left"
@@ -52,11 +50,10 @@ const Contact = () => {
                   <span> design work or partnerships.</span>
                 </p>
               </div>
-              End title
+
               <div className="fields">
                 <NewContact />
               </div>
-              End Contact Form
             </div>
             <div
               className="right"
@@ -66,14 +63,16 @@ const Contact = () => {
             >
               <Map />
             </div>
-            End Map
           </div>
+
+          </div>
+
         </div>
       </div>
 
       <div className="footer-container">
         <Footer />
-      </div> 
+      </div>
     </div>
   )
 

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Modal from "react-modal";
-import Slider from "react-slick";
 import blogsData from "../data/blogs";
 import Image from "next/image";
 import HeaderHorizontal from "../components/header/HeaderHorizontal";
@@ -44,17 +43,15 @@ const Blog = () => {
 
   return (
     <>
-    <div style={{position:"relative"}}>
-
+    <div id="blog">
         <HeaderHorizontal />
-    </div>
       <div className="background-image" >
-        <p className="bloghead">Insights</p>
-        <h1 className="blogdesc">Delve into Our Expertise: In-Depth Blogs and Comprehensive Case Studies</h1>
-
-
+        <h3 className="bloghead">Insights</h3>
+        <p className="blogdesc">Delve into Our Expertise: In-Depth Blogs and Comprehensive Case Studies</p>
+      </div>
       </div>
       <div className="blogs">
+        <a href="/blogs/web-cookies" target="_blank">
         <div className="white-box"
           style={{
             transition: 'transform 0.3s', 
@@ -63,20 +60,23 @@ const Blog = () => {
           onMouseEnter={() => setIsZoomed(true)}
           onMouseLeave={() => setIsZoomed(false)}
         >
-          <div className="featured-block"><p>Featured</p></div>
-          <h1 className="featured-head"> Web Cookies </h1>
+          <div className="featured-block">
+            <p>Featured</p>
+          </div>
+            <h1 className="featured-head"> Web Cookies </h1>
 
-          <p style={{ textAlign: 'left', fontSize: '15px' }}>Web cookies are small files created by a web server and stored by a web browser to track user activity and preferences. They are often used to remember items in shopping carts or keep users logged in during their session.</p>
+            <p className="featured_para">Web cookies are small files created by a web server and stored by a web browser to track user activity and preferences. They are often used to remember items in shopping carts or keep users logged in during their session.</p>
 
-          <div style={{ display: 'flex', alignItems: 'center', marginTop: '20px' }}>
-            <img src="/img/Design-updation/Blog/web icon.jpg" alt="Icon" style={{ width: '25px', height: '25px', display: 'block' }} />
-            <span style={{ color: "black", marginLeft: "10px" }}> Web Technology</span>
+          <div className="featured_top">
+            <img src="/img/Design-updation/Blog/web icon.jpg" alt="Icon" />
+            <span> Web Technology</span>
           </div>
 
 
-          <img src="/img/Design-updation/Blog/4.jpg" alt="WebRTC" style={{ width: '100%', height: '70%', marginTop: '10px' }} />
+          <img src="/img/Design-updation/Blog/4.jpg" alt="WebRTC"/>
 
         </div>
+        </a>
       <h2 className="other-blogs-start">Latest Articles</h2>
       <div>
         <div className="blog-container">
@@ -103,13 +103,13 @@ const Blog = () => {
           ))}
         </div>
       </div>
-      </div>
+    </div>
       <Pagination
         blogsPerPage={blogsPerPage}
         totalBlogs={blogsData.length}
         paginate={paginate}
       />
-      <div className="footer-container" style={{marginTop:"-300px"}}>
+      <div className="footer-container blog_footer">
         <Footer />
       </div> 
     </>

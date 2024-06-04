@@ -3,7 +3,7 @@ module.exports = [
         title: "WEB & MOBILE",
         domainList: [
             "Fullstack Engineering",
-            "Mobile App Development", -
+            "Mobile App Development", 
             "iOS & Android",
             "Cross-Platform Mobile",
             "App Development" 

@@ -1,11 +1,11 @@
 import React from "react";
-import Image from "next/image";
 import NewHome from "../../design-updation/NewHome"
 import HeaderHorizontal from "../../header/HeaderHorizontal";
 import About from "../../design-updation/About";
 import Industries from "../../design-updation/industries";
 import NewProject from "../../design-updation/NewProject";
 import NewProjectMobile from "../../design-updation/NewProjectMobile";
+import Testimonial from "../../design-updation/Testimonial";
 import Footer from "../../footer/Footer";
 
 
@@ -41,6 +41,25 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <div className="redesign_testimonials" id="testimonial">
+        <div className="container">
+          <div className="edina_tm_title">
+            <h3 style={{color:"#7645ff", textAlign: "center", fontSize: "30px"}}>Testimonials</h3>
+            <p style={{textAlign: "center", margin: "auto"}}>
+              Explore testimonials that highlight our dedication to exceeding client expectations and delivering exceptional results.
+            </p>
+          </div>
+          {/* End edian_tm_title */}
+          <div className="list ">
+            <ul>
+              {/* <Testimonial /> */}
+              <Testimonial />
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <div className="footer-container">
         <Footer />
       </div>

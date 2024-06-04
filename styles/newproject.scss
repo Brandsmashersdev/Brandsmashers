@@ -1,7 +1,17 @@
 :root {
-    --primary-color: #7645ff; /* blue */
-    --secondary-color: #fff; /* gray */
-    /* Add more variables as needed */
+    --primary-color: #c9b6ff; 
+    --secondary-color: #fff;
+    --third-color:black;
+    --fourth-color:#7555FF;
+    --fifth-color:gray;
+    --sixth-color:#f0f0f0;
+    --seventh-color:#0070f3;
+    --eigth-color:#666666;
+    --ninth-color:#1d3ede;
+    --tenth-color:#7545FF;
+    --eleventh-color:#0D0C54;
+    --twelfth-color:whitesmoke;
+    --thirteenth-color:#071b3c;
 }
 
 .project-container {
@@ -11,7 +21,7 @@
 
 .project-list-item {
     width: 100%;
-    border: 1px solid gray;
+    border: 1px solid var(--fifth-color);
     margin-bottom: 40px;
     padding: 0px 30px;
     border-radius: 10px;
@@ -31,7 +41,7 @@
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--third-color);
 }
 
 .mobile-project-view {

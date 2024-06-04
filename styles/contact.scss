@@ -1,34 +1,42 @@
-
+#contact{
+  padding: 0;
+}
 
 .contactheader{
     text-align: center;
     margin: auto;
-    color: #c9b6ff;
+    color: var(--primary-color);
     padding-top: 100px;
 }
 
 .background{
     background-image: url("../public/img/Background.jpg");
     background-size: cover;
-    // background-position: 0 0, 0 0;
     height: 95vh;
     width: 100%;
-    // background-size: auto auto;
-    position: relative;
-    // top: 0;
+    // position: relative;
+    h3{
+      color:var(--primary-color);
+      font-size: 25px;
+      font-weight: 800;
+    }
+}
+
+.contact-section {
+  position: relative;
+  bottom: 250px;
 }
 
 .description{
-    color: white;
-    margin-top: 80px ;
-    margin-left: 80px;
-    font-size: 30px;
+    color:var(--secondary-color);
+    margin: 80px 40px;
+    font-size: 28px;
     line-height: 50px ;
     text-align: left;
 }
 
 .Calendly-container{
-    background-color: white;
+    background-color:var(--secondary-color);
     height: 500px;
     width: 700px;
     display: flex;
@@ -36,15 +44,17 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 150px;
-    border: 1px solid gray;
+    border: 1px solid var(--fifth-color);
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    p{
+      padding: 40px 20px;
+    }
 }
 
 
 .Calendly-container p {
-    color: black;
+    color: var(--third-color);
 }
 
 .mainbtn {
@@ -54,13 +64,13 @@
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;
+  color: var(--secondary-color);
   border-radius: 10px;
   display: block;
   border: 0px;
   font-weight: 500;
-  box-shadow: 0px 0px 14px -7px #c9b6ff;
-  background-image: linear-gradient(45deg, #2e04ab 0%, #c9b6ff  51%, #2e04ab  100%);
+  box-shadow: 0px 0px 14px -7px var(--primary-color);
+  background-image: linear-gradient(45deg, #2e04ab 0%, var(--primary-color)  51%, #2e04ab  100%);
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
@@ -70,8 +80,7 @@
 
 .mainbtn:hover {
   background-position: right center;
-  /* change the direction of the change here */
-  color: #fff;
+  color:var(--secondary-color);
   text-decoration: none;
 }
 
@@ -85,8 +94,7 @@
 }
 
 .addressCard{
-    border: 1px solid gray;
-    margin: 0px 10px 4px 20px;
+    border: 1px solid var(--fifth-color);
 }
 
 .map{
@@ -103,23 +111,22 @@
   }
   
 .color{
-    margin: 10px;
-    padding: 15px 30px;
-    text-align: left;
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: left;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
   border-radius: 10px;
   display: block;
-  border: 1px solid grey;
+  border: 1px solid var(--fifth-color);
   font-weight: 700;
-  box-shadow: 0px 0px 14px -7px #c9b6ff;
-  background-image: linear-gradient(45deg, #2e04ab 0%, #c9b6ff  51%, #2e04ab  100%);
-  color: white;
+  box-shadow: 0px 0px 14px -7px var(--primary-color);
+  background-image: linear-gradient(45deg, #2e04ab 0%, var(--primary-color)  51%, #2e04ab  100%);
+  color: var(--secondary-color);
 }
 .color:hover {
     background-position: right center;
-    /* change the direction of the change here */
     text-decoration: none;
 }
 
@@ -127,10 +134,14 @@
 
     transform: scale(0.95);
 }
+.service_head_description{
+  font-size: 25px;
+  line-height: 50px;
+}
 
 .edina_tm_button button {
     text-decoration: none;
-    color: white;
+    color: var(--secondary-color);
     font-weight: 600;
     font-size: 18px;
     display: inline-block;
@@ -146,7 +157,7 @@
   .icon {
     width: 55px;
     height: 55px;
-    background: #071b3c;
+    // background: var(--thirteenth-color);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -160,24 +171,61 @@
 
   @media (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
     .Calendly-container{
-        width: 400px;
+        width: 90%;
         margin-top: 100px;
     }
     .Calendly{
         display: flex;
         flex-direction: column;
-
     }
     
     .description{
-        margin: 60px 0px 0px 30px;
-        font-size: 25px;
+        margin: 60px;
+        font-size: 16px;
         
     }
     .contact_form{
         margin-right: 0px;
+    }  
+    .redesign_contact .extra_info {
+      display: flex;
+      justify-content: center;
     }
-
-
-    
+    .redesign_contact .extra_info .wrapper {
+      width: 90%;
+    }
   }
+
+  @media screen and ((min-width:481px) and (max-width:768px))
+  {
+    .redesign_contact .extra_info .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .redesign_contact .right .google-map {
+      width: 50%;
+      margin: auto;
+    }
+  }
+  
+  @media screen and ((min-width:769px) and (max-width:1024px))
+  {
+    .redesign_contact .extra_info .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .redesign_contact .extra_info .wrapper > li {
+      width: 400px;
+    }
+    .redesign_contact .right .google-map {
+      width: 50%;
+      margin: auto;
+    }
+    .contact-section {
+      bottom: 170px;
+    }
+  }
+  
+ 

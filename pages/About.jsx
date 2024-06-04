@@ -41,7 +41,7 @@ const About = () => {
 
   return (
     //    ABOUT
-    <div id="about" style={{boxSizing:"border-box"}}>
+    <div id="about">
           <HeaderHorizontal />
         <div id="about1">
             <div className="subtitle">About us</div>
@@ -51,7 +51,7 @@ const About = () => {
                 </p>
             </div>
             <div className="button1">
-                <a className="talk_to_us" href="#">Talk To Us</a>
+                <a className="talk_to_us" href="/Contact">Talk To Us</a>
             </div>
         </div>
         
@@ -73,7 +73,7 @@ const About = () => {
                 <h5>Clients</h5>
             </div>
             <div className="div1">
-                <h3>80+</h3>
+                <h3>50+</h3>
                 <h5>Project Delivered</h5>
             </div>
             <div className="div1">
@@ -81,7 +81,7 @@ const About = () => {
                 <h5>Repeated Customers & Referrals</h5>
             </div>
             <div className="div1">
-                <h3>120+</h3>
+                <h3>30+</h3>
                 <h5>Strong Team</h5>
             </div> 
         </div>
@@ -95,11 +95,17 @@ const About = () => {
                   {teamData.map((teamData, index) => (
                     <div key={index} className="testimonial-slide" >
                       <div className="card text-center">
-                        <div className="abcd"></div>
-                        <img className="card-img-top" src={teamData.image} alt="" />
+                        <img className="card-img-top" src={teamData.image} alt="Member_photo" />
                         <div className="card-body">
                           <h5>{teamData.name}<br /><span>{teamData.role}</span></h5>
                           <p className="card-text">{teamData.text}</p>
+                        <div className="member_social_links">
+                          <div className="linkedin" >
+                            <a href={teamData.linkedin} target="_blank" >
+                              <img src="/img/Design-updation/about/linkedin.png" alt="linkedin" className="social-icons"/>
+                            </a>
+                          </div>
+                        </div>
                         </div>
                       </div>
                     </div>
