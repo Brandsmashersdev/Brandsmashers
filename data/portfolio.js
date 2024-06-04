@@ -1,103 +1,66 @@
 module.exports = [
-  {
-    id: 1,
-    tooltipId: "product",
-    portfolioImage: "/img/portfolio/Urban.png",
-    portfolioBanner: "/img/portfolio/Tasker-Banner.png",
-    portfolioLink: "",
-    title: "Taskii",
-    projectName: "taskii",
-    meta: "Product",
-    clientName: "Taskii",
-    category: "Mobile App",
-    date: "October 22, 2023",
-    projectDescriptions: (
-      <>
-        <p>
-          Taskii provides a platform for service providers to create comprehensive profiles highlighting their skills, experience, and qualifications. With the ability to upload blogs and share insights into their craft, professionals can effectively showcase their expertise and establish credibility within the Taskii community. Service providers can easily manage their schedules, accept bids, and communicate with clients—all within the Taskii app.
-        </p>
+  // {
+  //   id: 1,
+  //   tooltipId: "product",
+  //   portfolioImage: "/img/Urban-company.png",
+  //   portfolioBanner: "/img/portfolio/Tasker-Banner.png",
+  //   portfolioLink: "",
+  //   title: "Taskii",
+  //   projectName: "taskii",
+  //   meta: "Product",
+  //   clientName: "Taskii",
+  //   category: "Mobile App",
+  //   date: "October 22, 2023",
+  //   classname: "shiftLeft",
+  //   projectDescriptions: "Taskii enables service providers to create detailed profiles, share insights, and manage schedules. Users seeking home services can browse profiles, view ratings, and request bids. Taskii's transparent bid system allows users to compare quotes and select professionals based on cost and expertise, simplifying the process of finding reliable services."
 
-        <p>
-          Taskii offers an intuitive interface for users seeking reliable and affordable home services. Whether it's fixing a leaky faucet, repairing a broken appliance, or renovating a living space, Taskii simplifies the process of finding the right professional for the job. Users can browse through a diverse range of service providers, view their profiles and ratings, and request bids for their desired services. With Taskii's transparent bid system, users can compare quotes from multiple providers and select the most suitable option based on cost and expertise.
-        </p>
-      </>
-    ),
-  },
+  // },
   {
     id: 2,
     tooltipId: "dribbble",
-    portfolioImage: "/img/portfolio/Close2buy.jpg",
+    portfolioImage: "/img/closetobuy.png",
     portfolioBanner: "/img/portfolio/Close2buy-Banner.png",
     portfolioLink: "https://play.google.com/store/apps/details?id=com.close2buy.user",
     title: "Close To Buy",
-    projectName: "close-to-buy",
+    projectName: "CloseToBuy",
     meta: "Product",
     clientName: "Close To Buy",
     category: "Mobile App",
     date: "February 20, 2024",
-    projectDescriptions: (
-      <>
-        <p>
-        At our service-based company, we take pride in our expertise in crafting seamless solutions for our clients, and our recent project exemplifies our commitment to excellence. Leveraging the power of Figma for design and Flutter for development, coupled with Node.js and MongoDB for backend support, we meticulously engineered a delivery partner application that revolutionizes the logistics industry. Our solution streamlines the entire delivery process, from onboarding new riders with a robust verification system to optimizing delivery routes for maximum efficiency. With an intuitive interface designed for ease of use, delivery partners can effortlessly manage their shifts, accept orders, and track deliveries in real-time.
-        </p>
-
-        <p>
-        Furthermore, our application ensures transparency and accountability at every stage, with features such as photo confirmation of pickups and OTP verification for customer identity. Payment calculations based on distance traveled, meticulously managed through our admin panel, guarantee fair compensation for our delivery partners. In times of crisis, our emergency handling system provides swift assistance, allowing riders to unassign orders with ease. Through our dedication to innovation and attention to detail, we've developed a cutting-edge solution that empowers businesses to thrive in the fast-paced world of delivery logistics.
-        </p>
-      </>
-    ),
+    classname: "shiftRight",
+    projectDescriptions: "At our company, we excel in creating seamless solutions. Our recent project, a delivery partner app, uses Figma, Flutter, Node.js, and MongoDB to revolutionize logistics. It streamlines onboarding, optimizes routes, and offers an intuitive interface for managing shifts, accepting orders, and tracking deliveries in real-time.",
   },
   {
     id: 3,
     tooltipId: "facebook",
-    portfolioImage: "/img/portfolio/Tasker.jpg",
+    portfolioImage: "/img/taskManagement.png",
     portfolioBanner: "/img/portfolio/TaskerWebqoda.png",
     portfolioLink: "tasker.webqoda.com",
-    title: "Task Management",
-    projectName: "task-management",
+    title: "Task Management", 
+    projectName: "Tasker Web Qoda",
     meta: "Web Application",
     clientName: "Webqoda",
     category: "Web Application",
     date: "March 20, 2024",
-    projectDescriptions: (
-      <>
-        <p>
-        Tasker is our innovative task management and project collaboration platform designed to streamline workflows and boost productivity for teams of all sizes. Whether you're coordinating tasks in a bustling office environment or managing projects from the comfort of your home office, Tasker provides the tools you need to succeed.
-        </p>
+    classname: "shiftLeft",
+    projectDescriptions: "Tasker is an innovative task management and project collaboration platform designed to streamline workflows and boost productivity. With its user-friendly interface, robust features, and unparalleled flexibility, Tasker is ideal for teams of all sizes, whether in an office or working remotely, to achieve success in dynamic work environments."
 
-        <p>
-        Tasker stands out from other task management systems with its user-friendly interface, robust feature set, and unparalleled flexibility, making it the ideal solution for teams looking to elevate their productivity and achieve success in today's dynamic work environments.
-        </p>
-
-        <p>
-        Ready to revolutionize the way your team works? Explore Tasker's features and discover how it can transform your project management experience. Collaborate, manage projects, and reach new productivity peaks with Tasker.
-        </p>
-      </>
-    ),
   },
   {
     id: 4,
     tooltipId: "Instagram",
-    portfolioImage: "/img/portfolio/Stockable.png",
+    portfolioImage: "/img/stockit.png",
     portfolioBanner: "/img/portfolio/Stockable-banner.png",
     portfolioLink: "",
     title: "Stockit",
-    projectName: "stockit",
+    projectName: "StockIt",
     meta: "Mobile App",
     clientName: "Stockit",
     category: "Mobile App",
     date: "October 22, 2022",
-    projectDescriptions: (
-      <>
-        <p>
-        Step into the world of finance with our latest achievement: a custom-built mobile trading app designed specifically for our client's needs. Our team worked closely with them from start to finish to make their vision a reality.We focused on making the app easy to use and packed with helpful features. With the latest technology, we made sure it runs smoothly and quickly, even when the markets are busy.
-       </p>
-
-        <p>
-        Our designers made the app look great and easy to understand, so anyone can use it without any hassle. We tested it thoroughly to ensure it's safe and works perfectly on all types of phones.Now, our client can offer their users a convenient way to trade stocks and more right from their phones. It's a win-win for everyone involved, making trading simpler and more accessible for all.
-        </p>
-      </>
-    ),
+    classname: "shiftRight",
+    projectDescriptions: "We developed a custom mobile trading app tailored to our client's needs, focusing on ease of use and robust features. Using the latest technology, we ensured smooth performance and thorough security testing. The app provides a user-friendly interface for seamless stock trading, making trading simpler and more accessible for all."
+ 
   },
   // {
   //   id: 5,

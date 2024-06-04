@@ -1,10 +1,6 @@
 .trash{
     color: red;
 }
-// .introSectionWrapper{
-//     // background-color: red;
-//     max-width: 1036px;
-// }
 .img{
     vertical-align: middle;
     max-width: 100%;
@@ -17,6 +13,7 @@
     font-size: 2.3em;
     text-align: center;
     line-height: 2.3rem;
+    margin-top: 20px;
 }
 
 .introSection{
@@ -24,6 +21,7 @@
     flex-direction: column;
     gap: 2rem;
     align-items: center;
+    margin-top: 20px;
 }
 
 .topTitleText{
@@ -66,7 +64,7 @@
 }
 
 .timelines .timelineValue{
-    color: black;
+    color: var(--third-color);
 }
 
 .bodySection{
@@ -127,6 +125,8 @@
     border: 1px solid #dadada;
     border-radius: 10px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .paraAndPointsWrapper{
@@ -141,7 +141,7 @@
 
 .paraAndPoints ul li{
     margin-bottom: 1rem;
-    color: black;
+    color: var(--third-color);
     font-weight: normal;
 }
 

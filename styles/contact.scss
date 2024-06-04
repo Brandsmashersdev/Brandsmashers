@@ -1,0 +1,295 @@
+#contact{
+  padding: 0;
+}
+
+.contactheader{
+    text-align: center;
+    margin: auto;
+    color: var(--primary-color);
+    padding-top: 100px;
+}
+
+.background{
+    background-image: url("../public/img/Background.jpg");
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    // position: relative;
+    h3{
+      color:var(--primary-color);
+      font-size: 25px;
+      font-weight: 800;
+    }
+}
+
+.contact-section {
+  position: relative;
+  bottom: 250px;
+}
+
+.description{
+    color:var(--secondary-color);
+    margin: 80px 40px;
+    font-size: 28px;
+    line-height: 50px ;
+    text-align: left;
+}
+
+.Calendly-container{
+    background-color:var(--secondary-color);
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid var(--fifth-color);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    p{
+      padding: 40px 20px;
+    }
+}
+
+
+.Calendly-container p {
+    color: var(--third-color);
+}
+
+.mainbtn {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: var(--secondary-color);
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 500;
+  box-shadow: 0px 0px 14px -7px var(--primary-color);
+  background-image: linear-gradient(45deg, #2e04ab 0%, var(--primary-color)  51%, #2e04ab  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: max-content;
+}
+
+.mainbtn:hover {
+  background-position: right center;
+  color:var(--secondary-color);
+  text-decoration: none;
+}
+
+.mainbtn:active {
+
+  transform: scale(0.95);
+}
+
+.wrapper {
+    margin:0px 40px;
+}
+
+.addressCard{
+    border: 1px solid var(--fifth-color);
+}
+
+.map{
+    height: 100vh;
+    width: 100%;
+}
+
+.Calendly{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+    width: 100%;
+    margin-left: 80px;
+  }
+  
+.color{
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: left;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 10px;
+  display: block;
+  border: 1px solid var(--fifth-color);
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px var(--primary-color);
+  background-image: linear-gradient(45deg, #2e04ab 0%, var(--primary-color)  51%, #2e04ab  100%);
+  color: var(--secondary-color);
+}
+.color:hover {
+    background-position: right center;
+    text-decoration: none;
+}
+
+.color:active {
+
+    transform: scale(0.95);
+}
+.service_head_description{
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.edina_tm_button button {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 6px;
+    border: 0px;
+    padding: 8px 35px 7px 35px;
+    transition: all 0.3s ease;
+    @media screen and (max-width: 480px) {
+      font-size: 16px;
+    }
+  }
+
+  .icon {
+    width: 55px;
+    height: 55px;
+    // background: var(--thirteenth-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 25px;
+      filter: invert(1);
+      height: 25px;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
+    .Calendly-container{
+        width: 90%;
+        margin-top: 100px;
+    }
+    .Calendly{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .description{
+        margin: 60px;
+        font-size: 15px;
+        
+    }
+    .contact_form{
+        margin-right: 0px;
+    }  
+    .redesign_contact .extra_info {
+      display: flex;
+      justify-content: center;
+    }
+    .redesign_contact .extra_info .wrapper {
+      width: 90%;
+    }
+  }
+
+  @media screen and ((min-width:481px) and (max-width:768px))
+  {
+    .redesign_contact .extra_info .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .redesign_contact .right .google-map {
+      width: 50%;
+      margin: auto;
+    }
+  }
+  
+  @media screen and ((min-width:769px) and (max-width:1024px))
+  {
+    .redesign_contact .extra_info .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .redesign_contact .extra_info .wrapper > li {
+      width: 400px;
+    }
+    .redesign_contact .right .google-map {
+      width: 50%;
+      margin: auto;
+    }
+    .contact-section {
+      bottom: 170px;
+    }
+  }
+//   @media screen and (min-width:1900px)
+// {
+//   .description{
+//     font-size: 40px;
+//     text-align: center;
+//     margin-right: 30px;
+//   }
+// }
+// @media screen and ((min-width: 1201px) and (max-width:1900px)){
+//   .description{
+//     font-size: 32px;
+//     margin-right: 450px;
+//   }
+// }
+// @media screen and ((min-width:1025px) and (max-width:1200px))
+// {
+//   .subtitle{
+//     margin-top: 35px;
+//   }
+//   .description{
+//     font-size: 25px;
+//     margin-right: 350px;
+//   }
+//   #about1{
+//     height: auto;
+//   }
+// }
+// @media screen and ((min-width:769px) and (max-width:1024px))
+// {
+//   .subtitle{
+//     margin-top: 35px;
+//   }
+//   .description{
+//     font-size: 23px;
+//     margin-right: 300px;
+//   }
+//   #about1{
+//     background-position-x:55%;
+//     height: auto;
+//   }  
+// }
+//   @media screen and ((min-width:481px) and (max-width:768px))
+//   {
+//     .subtitle{
+//       margin-top: 35px;
+//     }
+//     .description{
+//       font-size: 25px;
+//       margin-right: 100px;
+//     }
+//     #about1{
+//       height: auto;
+//       background-position-x:45%;
+//     }
+//   }
+//   @media screen and ((min-width:320px) and (max-width:480px))
+//   {
+//       .description{
+//           font-size: 18px;
+
+//       }
+//       #about1{
+//         background-position-x:35%;
+//         height: auto;
+//       }
+//   }
