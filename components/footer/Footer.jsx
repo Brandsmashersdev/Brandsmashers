@@ -78,7 +78,7 @@ const Footer = () => {
         <ul>
             {socialMediaLink.map((item, index) => (
                     <li key={index} className="social-media">
-                      <Link href={item.link}>
+                      <Link href={item.link} target="_blank">
                       <Image 
                           src={item.icon} 
                           alt={item.handle} 

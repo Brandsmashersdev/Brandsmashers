@@ -43,57 +43,57 @@ module.exports = [
   },
 
 
-  {
-    id: 5,
-    img: "/img/blogs-showcase/web-cookies/thumbnail1.jpg",
-    title: "Web Cookies",
-    date: "April 11, 2023",
-    meta: "Storage",
-    routeName: "web-cookies",
-    description: "Web cookies are small files created by a web server and stored by a web browser to track user activity and preferences. They are often used to remember items in shopping carts or keep users logged in during their session."
+  // {
+  //   id: 5,
+  //   img: "/img/blogs-showcase/web-cookies/thumbnail1.jpg",
+  //   title: "Web Cookies",
+  //   date: "April 11, 2023",
+  //   meta: "Storage",
+  //   routeName: "web-cookies",
+  //   description: "Web cookies are small files created by a web server and stored by a web browser to track user activity and preferences. They are often used to remember items in shopping carts or keep users logged in during their session."
    
-  },
+  // },
 
 
-  {
-    id: 6,
-    img: "/img/blogs-showcase/web-cookies/thumbnail1.jpg",
-    title: "Web Cookies",
-    date: "April 11, 2023",
-    meta: "Storage",
-    routeName: "web-cookies",
-    description: "Web cookies are small files created by a web server and stored by a web browser to track user activity and preferences. They are often used to remember items in shopping carts or keep users logged in during their session."
+  // {
+  //   id: 6,
+  //   img: "/img/blogs-showcase/web-cookies/thumbnail1.jpg",
+  //   title: "Web Cookies",
+  //   date: "April 11, 2023",
+  //   meta: "Storage",
+  //   routeName: "web-cookies",
+  //   description: "Web cookies are small files created by a web server and stored by a web browser to track user activity and preferences. They are often used to remember items in shopping carts or keep users logged in during their session."
    
-  },
+  // },
 
-  {
-    id: 7,
-    img: "/img/blogs-showcase/web-cookies/thumbnail1.jpg",
-    title: "Web Cookies",
-    date: "April 11, 2023",
-    meta: "Storage",
-    routeName: "web-cookies",
-    description: "Web cookies are small files created by a web server and stored by a web browser to track user activity and preferences. They are often used to remember items in shopping carts or keep users logged in during their session."
+  // {
+  //   id: 7,
+  //   img: "/img/blogs-showcase/web-cookies/thumbnail1.jpg",
+  //   title: "Web Cookies",
+  //   date: "April 11, 2023",
+  //   meta: "Storage",
+  //   routeName: "web-cookies",
+  //   description: "Web cookies are small files created by a web server and stored by a web browser to track user activity and preferences. They are often used to remember items in shopping carts or keep users logged in during their session."
    
-  },
-  {
-    id: 8,
-    img: "/img/blogs-showcase/web-cookies/thumbnail1.jpg",
-    title: "Web Cookies",
-    date: "April 11, 2023",
-    meta: "Storage",
-    routeName: "web-cookies",
-    description: "Web cookies are small files created by a web server and stored by a web browser to track user activity and preferences. They are often used to remember items in shopping carts or keep users logged in during their session."
+  // },
+  // {
+  //   id: 8,
+  //   img: "/img/blogs-showcase/web-cookies/thumbnail1.jpg",
+  //   title: "Web Cookies",
+  //   date: "April 11, 2023",
+  //   meta: "Storage",
+  //   routeName: "web-cookies",
+  //   description: "Web cookies are small files created by a web server and stored by a web browser to track user activity and preferences. They are often used to remember items in shopping carts or keep users logged in during their session."
    
-  },
-  {
-    id: 9,
-    img: "/img/blogs-showcase/web-cookies/thumbnail1.jpg",
-    title: "Web Cookies",
-    date: "April 11, 2023",
-    meta: "Storage",
-    routeName: "web-cookies",
-    description: "Web cookies are small files created by a web server and stored by a web browser to track user activity and preferences. They are often used to remember items in shopping carts or keep users logged in during their session."
+  // },
+  // {
+  //   id: 9,
+  //   img: "/img/blogs-showcase/web-cookies/thumbnail1.jpg",
+  //   title: "Web Cookies",
+  //   date: "April 11, 2023",
+  //   meta: "Storage",
+  //   routeName: "web-cookies",
+  //   description: "Web cookies are small files created by a web server and stored by a web browser to track user activity and preferences. They are often used to remember items in shopping carts or keep users logged in during their session."
    
-  },
+  // },
 ];

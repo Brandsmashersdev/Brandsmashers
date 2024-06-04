@@ -36,13 +36,14 @@ const Service = () => {
                           />
                       </div>
                     </div>
-                    <div className="description_services">
+                    <div className="description_services" >
                       <h3>{item.popupTitle}</h3>
                        
                        <ToggleText
                         text={item.firstDescriptionText}
                         limit={400}
                         fullText={item.fullDescriptionText}
+                       
                       />
                       <div className="description_list">
                         <ul>
@@ -71,7 +72,7 @@ const Service = () => {
                           />
                       </div>
                     </div>
-                    <div className="description_services">
+                    <div className="description_services"  >
                       <h3>{item.popupTitle}</h3>
                        
                        <ToggleText

@@ -1,10 +1,6 @@
 .trash{
     color: red;
 }
-// .introSectionWrapper{
-//     // background-color: red;
-//     max-width: 1036px;
-// }
 .img{
     vertical-align: middle;
     max-width: 100%;
@@ -68,7 +64,7 @@
 }
 
 .timelines .timelineValue{
-    color: black;
+    color: var(--third-color);
 }
 
 .bodySection{
@@ -129,6 +125,8 @@
     border: 1px solid #dadada;
     border-radius: 10px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .paraAndPointsWrapper{
@@ -143,7 +141,7 @@
 
 .paraAndPoints ul li{
     margin-bottom: 1rem;
-    color: black;
+    color: var(--third-color);
     font-weight: normal;
 }
 

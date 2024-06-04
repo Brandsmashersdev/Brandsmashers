@@ -1,5 +1,5 @@
 module.exports = {
-    'close-to-buy':{
+    'CloseToBuy':{
         projectTitle: "CloseToBuy: The Best Experience for Delivery Riders",
         projectDate: `April 5, 2024`,
         projectType: `App Development`,
@@ -157,7 +157,7 @@ module.exports = {
     },
 
 
-    'task-management':{
+    'Tasker Web Qoda':{
         projectTitle: "Where Tasks Meet Teamwork: Tasker Web Qoda",
         projectDate: `May 10, 2024`,
         projectType: `Web Development`,
@@ -319,7 +319,7 @@ module.exports = {
 },
 
 
-    'stockit':{
+    'StockIt':{
         projectTitle: "StockIt - Your gateway to financial freedom",
         projectDate: `May 10, 2024`,
         projectType: `Mobile App`,

@@ -1,9 +1,13 @@
 
-.background {
+.background_service {
     background-image: url("../public/img/Background.jpg");
     background-size: cover;
     height: 95vh;
     width: 100%;
+    h3{
+      font-size: 28px;
+      color:var(--primary-color)
+    }
 }
 
 .redesign_service {
@@ -12,7 +16,6 @@
   clear: both;
   float: left;
   background-color: transparent;
-  // padding: 120px 0px;
   }
   .service_list {
     width: 100%;
@@ -35,9 +38,9 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    color: black;
+    color: var(--third-color);
     font-size: large;
-    background-color: white;
+    background-color: var(--secondary-color);
   }
   .list-inner-right {
     display: flex;
@@ -48,9 +51,9 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    color: black;
+    color:var(--third-color);
     font-size: large;
-    background-color: white;
+    background-color: var(--secondary-color);
   }
   .image {
     flex: 1;
@@ -61,36 +64,25 @@
   .image_wrapper {
     position: relative;
     width: 100%;
-    padding-top: 75%; /* Maintain aspect ratio */
+    padding-top: 75%;
   }
-  // .shiftLeft, .shiftRight{
-  //   border-radius: 8px;
-  // }
-
-  // .shiftRight{
-  //   float: right;
-  // }
-  // .shiftLeft{
-  //   float: left;
-  // }
-
-  
-  .description_services {
+  .description_services{
     flex: 1;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: black;
+    color:var(--third-color);
   }
   .description_services p {
-    color:black;
+    color:var(--third-color);
     font-size:18px;
     line-height:35px;
     @media screen and ((min-width:320px) and (max-width:480px)) {
       font-size: 16px;      
     }
   }
+  
   .description_services h3 {
     margin-top: 0;
     line-height: 40px;
@@ -119,7 +111,12 @@
       width: 100%;
     }
   }
-
+.service_head_description p{
+  color:var(--secondary-color);
+  text-align:left;
+  margin:80px 40px 150px 40px;
+  line-height: 50px;
+}
 
   .toggle-button {
   margin-top: 20px;
@@ -128,13 +125,13 @@
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;
+  color:var(--secondary-color);
   border-radius: 10px;
   display: block;
   border: 0px;
   font-weight: 700;
-  box-shadow: 0px 0px 14px -7px #c9b6ff;
-  background-image: linear-gradient(45deg, #2e04ab 0%, #c9b6ff  51%, #2e04ab  100%);
+  box-shadow: 0px 0px 14px -7px var(--primary-color);
+  background-image: linear-gradient(45deg, #2e04ab 0%, var(--primary-color) 51%, #2e04ab  100%);
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
@@ -143,17 +140,79 @@
   font-size: large;
   
 }
-
-// .shiftLeft, .shiftRight{
-//   height: 650px;
-//   width: 800px;
-// }
-
-  
-  
   .toggle-button:hover {
     background-position: right center;
-  /* change the direction of the change here */
-    color: #fff;
+    color: var(--secondary-color);
     text-decoration: none;
-} /* Darker blue on hover */
+} 
+@media screen and (min-width:1900px)
+{
+  .service_head_description p{
+    font-size: 40px;
+    text-align: center;
+    margin-right: 30px;
+  }
+}
+@media screen and ((min-width: 1201px) and (max-width:1900px)){
+  .service_head_description p{
+    font-size: 32px;
+    margin-right: 350px;
+  }
+}
+@media screen and ((min-width:1025px) and (max-width:1200px))
+{
+  .background_service h3{
+    margin-top: 35px;
+  }
+  .service_head_description p{
+    font-size: 25px;
+    margin-right: 300px;
+  }
+}
+@media screen and ((min-width:769px) and (max-width:1024px))
+{
+  .background_service h3{
+    margin-top: 35px;
+  }
+  .service_head_description p{
+    font-size: 23px;
+    margin-right: 130px;
+  }
+  .background_service{
+    background-position-x:55%;
+    height: auto;
+  }
+}
+@media screen and ((min-width:590px) and (max-width:768px))
+{
+  .background_service h3{
+    margin-top: 35px;
+  }
+  .service_head_description p{
+    font-size: 25px;
+  }
+  .background_service{
+    background-position-x:45%;
+    height: auto;
+  }
+}
+@media screen and ((min-width:480px) and (max-width:590px)){
+  .service_head_description p{
+    font-size: 22px;
+  }
+  .background_service{
+    background-position-x:40%;
+    height: auto;
+  }
+}
+@media screen and ((min-width:320px) and (max-width:480px))
+{
+    .service_head_description p{
+        font-size: 18px;
+        margin: 0 0 140px 0;
+    }
+    .background_service{
+      background-position-x:35%;
+      height: auto;
+    }
+}

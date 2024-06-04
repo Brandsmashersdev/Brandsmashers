@@ -27,12 +27,14 @@ const Project = () => {
                       alt="portfolio"
                       className={item.classname}
                     />
+                    <div className="project-info">
                       <h1 style={{marginTop:"20px"}}>{item.projectName}</h1>
                       <p>{item.category}</p>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit quos nobis nostrum amet! Excepturi repudiandae facilis quae magni tenetur fugiat numquam, id impedit corrupti consequatur saepe. Eius velit voluptatem cumque nulla.</p>
+                      <p>{item.projectDescriptions}</p>
                       <Link target="_blank" href={`projects/${item.projectName}`} key={item.id} style={{marginTop:"20px"}}>
                         <h5 style={{marginTop: "20px"}}>Learn more</h5>
                       </Link>
+                    </div>
                     <ReactTooltip
                       id={item.tooltipId}
                       place="bottom"

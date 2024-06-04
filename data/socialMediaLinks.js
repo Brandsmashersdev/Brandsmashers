@@ -1,22 +1,22 @@
 module.exports = [
     {
         handle: "LinkedIn",
-        link: "",
+        link: "https://www.linkedin.com/company/brandsmashers-tech-pvt-ltd/",
         icon: `/img/linkedin.png`
     },
     {
         handle: "Twitter",
-        link: "",
+        link: "https://x.com/Brandsmashers",
         icon: `/img/twitter.png`
     },
     {
         handle: "Instagram",
-        link: "",
+        link: "https://www.instagram.com/brandsmashers_technologies/",
         icon: `/img/instagram.png`
     },
     {
         handle: "Facebook",
-        link: "",
+        link: "https://www.facebook.com/profile.php?id=61560172066228",
         icon: `/img/facebook-logo.png`
     }
   ];

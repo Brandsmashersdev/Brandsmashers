@@ -3,6 +3,7 @@ import blogsShowcase from "../../../data/blogs-showcase";
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { MdOutlineChat } from "react-icons/md";
+import { MdOutlineDriveFileRenameOutline } from "react-icons/md";
 import Footer from "../../footer/Footer";
 import HeaderHorizontal from "../../header/InsideHeader";
 
@@ -22,18 +23,37 @@ const BlogShowcase = ({ blogName }) => {
 
           <div className="blogDetails" >
             <div className="flexContainer" >
-              <div id="authorImg"></div>
+              <div>
+              <MdOutlineDriveFileRenameOutline className="blogDetailsIcon"/>
+              </div>
+              <div>
               <p>{data?.author}</p>
+              </div>
             </div>
-            <div className="flexContainer">
+            <div className="flexContainer" >
+              <div>
+
               <FaRegCalendarAlt className="blogDetailsIcon" />
-              <p>{data?.date}</p>
+              </div>
+              <div>
+              <span>{data?.date}</span>
+              </div>
             </div>
             <div className="flexContainer">
+              <div>
               <MdOutlineChat className="blogDetailsIcon" />
+              </div>
+              <div>
               <p>{data?.views}</p>
+              </div>
+            </div>
+            <div className="flexContainer">
+              <div>
               <MdOutlineRemoveRedEye className="blogDetailsIcon" />
+              </div>
+              <div>
               <p>{data?.commentCount}</p>
+              </div>
             </div>
           </div>
 
