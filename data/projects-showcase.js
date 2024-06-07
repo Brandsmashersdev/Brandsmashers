@@ -1,4 +1,150 @@
 module.exports = {
+    'Taskii':{
+        projectTitle: "Taskii: Your On-Demand Helper for Every Urban Need",
+        projectDate: `April 5, 2024`,
+        projectType: `App Development`,
+        projectThumbnail: `/img/projects-showcase/taskii/Taskii-thumbnail.png`,
+        projectTimeline: [
+            {
+                title: `For`,
+                value: `Client Project`
+            },
+            {
+                title: `Timeline`,
+                value: `December 2023 - February 2024`
+            },
+            {
+                title: `Year`,
+                value: `2024`
+            },
+            {
+                title: `Role`,
+                value: `App Development`
+            },
+        ],
+        projectParaSections:[
+            {
+                title: `Context`,
+                description: `In today's fast-paced world, people often find it challenging to manage their household chores, repairs, and other tasks due to busy schedules and lack of time. Traditional methods of finding reliable service providers are often time-consuming and unreliable. Recognizing this need for convenient and reliable home services, Taskii emerges as a solution to connect users with trusted professionals for various tasks and services.`
+            },
+            {
+                title: `Problem Statement`,
+                description: `The traditional process of finding and hiring service providers for household tasks is inefficient and unreliable. Users face challenges in identifying trustworthy professionals, negotiating fair prices, and coordinating service appointments. Additionally, service providers struggle to reach potential customers and build a reliable customer base, leading to missed opportunities for business growth. This disconnect between users and service providers highlights the need for a more efficient and streamlined platform to facilitate home services.`
+            },
+            {
+                title: `Solution`,
+                description: `Taskii addresses these challenges by providing a user-friendly platform where users can easily find, book, and pay for a wide range of services. Through Taskii, users can browse through a curated list of verified service providers, view their profiles, read reviews from other users, and book appointments based on their preferences and availability. Service providers, on the other hand, benefit from increased visibility, access to a larger customer base, and seamless appointment management tools. Taskii introduces a unique bidding feature, users can compare bids, evaluate providers, and choose the least-priced offer that best suits their needs and budget. This bidding system fosters competition, driving down prices and ensuring users receive the most competitive rates. Taskii's transparent process enhances trust, transparency, and satisfaction in the home services marketplace, making it a dynamic and user-centric platform.`
+            },
+        ],
+        projectFeatures:[
+            {
+                title: `Sign-in/Sign-up`,
+                description: `Easily access Taskii by creating an account or logging in, ensuring seamless user engagement.`,
+                images: [
+                    `/img/projects-showcase/taskii/sign-up.png`
+                ]
+            },
+            {
+                title: `Create Task`,
+                description: `Effortlessly post tasks with comprehensive descriptions and specific requirements for precise service requests.`,
+                images: [
+                    `/img/projects-showcase/taskii/Creator-flow.png`
+                ]
+            },
+            {
+                title: `Profile/Edit Profile`,
+                description: `Customize your profile, including personal details and preferences, for a tailored Taskii experience.`,
+                images: [
+                    `/img/projects-showcase/taskii/Profile.png`
+                ]
+            },
+            {
+                title: `Place a Bid`,
+                description: `Service providers can swiftly submit competitive bids for users' tasks, fostering dynamic pricing and choice.`,
+                images: [
+                    `/img/projects-showcase/taskii/bidder.png`
+                ]
+            },
+            {
+                title: `Edit Task`,
+                description: ` Modify task details or requirements conveniently, empowering users to adapt to changing needs with ease.`,
+                images: [
+                    `/img/projects-showcase/Edit-task.png`
+                ]
+            },
+        ],
+        projectGoals: {
+            description: `The primary goal of our project, Taskii, is to revolutionize the home services industry by providing a seamless and user-friendly platform for accessing a wide range of services. Our platform aims to enhance user convenience by simplifying the process of finding and booking service providers, ultimately saving users valuable time and effort.
+
+            Central to our mission is fostering trust and transparency within the marketplace. We achieve this by establishing a transparent environment where users can confidently engage with verified service providers, ensuring reliability and peace of mind throughout the service procurement process.`,
+            points: [
+                `Facilitate Competitive Pricing: Introduce a bidding functionality that encourages service providers to offer competitive rates, allowing users to choose the most cost-effective option for their tasks.`,
+                `Empower User Control: Enable users to have full control over their task listings, profiles, and interactions with service providers, empowering them to make informed decisions and customize their experiences.`,
+                `Expand Service Offerings: Continuously expand the range of services offered on the platform to cater to diverse user needs and preferences, ensuring comprehensive coverage of home service solutions.`,
+                `Ensure Quality Assurance: Implement rigorous vetting processes and feedback mechanisms to maintain high-quality service standards and customer satisfaction levels across the platform.`,
+            ]
+        },
+        projectResearch: {
+            title: `Research`,
+            description: `In conducting research on existing apps in the home services industry, several key competitors emerge as prominent players in the market. Platforms such as Urban Company, Housejoy, and Handy offer a wide array of services ranging from household repairs to beauty treatments, providing users with convenient solutions to their everyday needs. These apps prioritize user experience by offering intuitive interfaces for browsing services, scheduling appointments, and making payments. Additionally, they emphasize trust and reliability by vetting service providers and enabling user reviews and ratings. While each platform has its unique features and strengths, they collectively demonstrate the growing demand for on-demand home services and the importance of user-centric solutions in this space.`
+        },
+        projectDetailedSections: [
+            {
+                title: `Competitive Analysis`,
+                description: `In our exploration of the competitive landscape for such applications, we scrutinized several prominent platforms including Urban Company, TashRabbit, and Handy.`,
+                images: [
+                    `/img/projects-showcase/taskii/competitive-analyses.png`
+                ],
+                pointsHeading: `Key Findings`,
+                points: [
+                    `Taskii's transparent bidding process enhances trust and transparency, providing users with a transparent view of bid details and enabling informed decision-making, setting it apart as a dynamic and user-centric platform.`,
+                    `Taskii stands out with its intuitive interface and seamless user experience, enabling users to effortlessly navigate through services, create tasks, and manage interactions with service providers.`,
+                    `Unlike TaskRabbit, Taskii's bidding feature empowers users to choose the least-priced offer that best suits their needs and budget, ensuring cost-effectiveness and flexibility in service selection.`,
+                ]
+            },
+            {
+                description: `Taskii's information architecture is structured for intuitive navigation and efficient access. Users encounter a homepage offering service overviews and category shortcuts. Authentication leads to profile management, while categorized listings enable service exploration. Task creation is straightforward, aided by a bidding system for competitive pricing. Task management tools and secure payment options ensure seamless transactions. Support resources are readily available, while an admin dashboard oversees platform performance. Overall, Taskii's architecture prioritizes user experience and functionality for streamlined service access.`,
+                images: [
+                    `/img/projects-showcase/taskii/flowchart.png`
+                ],
+                pointsHeading: `Key Findings`,
+                points: [
+                    `Taskii's service categories feature an organized hierarchy, simplifying user exploration and navigation. With refined search options, users can easily find the services they need, enhancing the overall user experience.`,
+                    `Task creation on Taskii is effortless, thanks to user-friendly forms that allow for precise detailing of task requirements and budgets. The streamlined process ensures accurate service requests, enabling users to efficiently create tasks with ease.`,
+                    `Taskii's bidding system empowers service providers to submit competitive bids on user tasks, fostering pricing transparency and encouraging fair competition. Through seamless communication channels, users and providers can negotiate and finalize agreements, ensuring optimal service delivery`,
+                ]
+            },
+            {
+                title: `Inspiration and Moodboard`,
+                description: `For Taskii's design inspiration and moodboard, we delve into the realm of modern home service platforms, seeking inspiration from their sleek and user-friendly interfaces. Our goal is to craft a design that resonates with users, blending convenience with reliability. Drawing from leading industry competitors, we explore clean layouts, vibrant color schemes, and minimalist design elements. The moodboard reflects Taskii's commitment to seamless user experiences, featuring imagery of satisfied customers and service providers. Bold typography, intuitive icons, and engaging illustrations further enhance the moodboard's dynamic and inviting aesthetic, setting the tone for Taskii's innovative design journey.`,
+                images: [
+                    `/img/projects-showcase/taskii/inspiration.png`
+                ],
+            },
+            {
+                title: `Low Fidelity Wireframes`,
+                images: [
+                    `/img/projects-showcase/taskii/low level design 1.png`,
+                    `/img/projects-showcase/taskii/low level design 2.svg`,
+                ],
+            },
+            {
+                title: `Final Designs`,
+                images: [
+                    `/img/projects-showcase/taskii/bidder.png`,
+                    `/img/projects-showcase/taskii/Profile.png`
+                ],
+            },
+            {
+                title: `Summary`,
+                description: `Taskii is a cutting-edge platform revolutionizing the home services industry, offering users a seamless and convenient way to access a wide range of services. From household repairs to beauty treatments, Taskii provides a comprehensive solution for all home service needs. The platform's intuitive interface allows users to easily navigate through service categories, create tasks, and connect with service providers. With innovative features like a bidding system for competitive pricing and transparent communication channels, Taskii empowers users to take control of their service experiences. With a commitment to trust, reliability, and user satisfaction, Taskii is set to transform the way people access and experience home services.`,
+            },
+            {
+                title: `Conclusion`,
+                description: `In conclusion, Taskii represents a significant advancement in the home services industry, offering a user-centric platform that prioritizes convenience, affordability, and reliability. Through its intuitive design, innovative features, and transparent communication channels, Taskii aims to revolutionize the way people access and experience home services. By providing a seamless and efficient solution for both users and service providers, Taskii is poised to become a leading player in the market, reshaping the landscape of the home services industry for the better. As Taskii continues to evolve and grow, it remains committed to its mission of empowering users and enhancing their everyday lives through convenient and reliable home services.`,
+            },
+        ]
+    },
     'CloseToBuy':{
         projectTitle: "CloseToBuy: The Best Experience for Delivery Riders",
         projectDate: `April 5, 2024`,
