@@ -9,11 +9,10 @@ import dynamic from "next/dynamic";
 import useScreenSize from "../data/useScreenSize";
 
 
-const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
-  ssr: false,
-});
-
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    document.body.style.cursor = 'default';
+  }, []);
   useEffect(() => {
     Aos.init({
       duration: 1200,
@@ -30,31 +29,6 @@ const val  = size.width<=800;
         }
       />
       
-      <div className={`${val ? "small" : "large"}`}>
-        {val ?
-        (
-          <AnimatedCursor
-        innerSize={0}
-        outerSize={0}
-        color="153,153,255"
-        outerAlpha={0.3}
-        innerScale={0.7}
-        outerScale={1.4}
-      /> 
-        ):(
-           <AnimatedCursor
-        innerSize={8}
-        outerSize={44}
-        color="153,153,255"
-        outerAlpha={0.3}
-        innerScale={0.7}
-        outerScale={1.4}
-      /> 
-        )
-
-        }
-
-      </div>
       <Component {...pageProps} />
 
       <ToastContainer />
