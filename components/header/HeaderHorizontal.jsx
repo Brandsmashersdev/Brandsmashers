@@ -3,8 +3,6 @@ import Link from "next/link";
 import ScrollspyNav from "react-scrollspy-nav";
 import sidebarContent from "../../data/sidebar";
 import Image from "next/image";
-import logo from "../../public/img/logo/fullLogo.png";
-import logo2 from "../../public/img/logo/fullLogo.png";
 import portfolioData from "../../data/portfolio";
 
 // sidebar footer bottom content
@@ -67,12 +65,12 @@ const HeaderHorizontal = () => {
               />
             </Link>
           </div> */}
+          <div className="menu"  >
           <div className="main_heading">
             <p>BRANDSMASHERS</p>
           </div>
           {/* End .logo */}
 
-          <div className="menu"  >
             
               <ul className="anchor_nav">
                 {sidebarContent.map((val, i) => (

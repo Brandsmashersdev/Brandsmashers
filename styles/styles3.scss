@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #060340;
+    --secondary-color: #fff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    // position: fixed;
+    // top: 0px;
+    // right: 0px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    // padding: 60px 40px;
+    @media screen and (max-width: 1199px) {
+        padding: 35px 20px 20px;
+    }
+}
+.menu ul {
+    margin: 0px;
+    list-style-type: none;
+}
+.menu ul li {
+    margin: 0px 0px 8px 0px;
+    width: 100%;
+    float: left;
+}
+.menu ul li:last-child {
+    margin-bottom: 0px;
+}
+.main_heading{
+    color: white;
+    font-weight: 600;
+}
+.menu ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 9px 15px;
+    position: relative;
+    transition: all 0.3s ease;
+    @media screen and (max-width: 1199px) {
+        font-size: 14px;
+        padding: 5px 15px;
+        color: black;
+    }
+}
+
+.anchor_nav {
+    display: flex;
+    color: var(--secondary-color);
+}
+
+.Hero  {
+    height: 100vh;
+    width: 100%;
+    background-color: #060340;
+    color: var(--secondary-color);
+}
+
+
+.content {
+  padding: 100px 60px;
+  z-index: 10;
+}
+.extra {
+  position: relative;
+  opacity: 1;
+  visibility: visible;
+  left: 0px;
+  transition-delay: 0.8s;
+  transition: all 1s ease;
+  width: 50%;
+  z-index: 10;
+}
+
+.extra div, 
+.extra p,
+.extra h5 {
+    z-index: 10;
+}
+
+.hello {
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 90px;
+  margin: 20px 0px;
+  @media screen and (max-width: 991px) {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+.highlight-text{
+  color: rgb(46, 0, 131);
+}
+
+.redesign_hero .text {
+  max-width: 600px;
+  font-size: 16px;
+  @media screen and (max-width: 575px) {
+    font-size: 15px;
+  }
+}
+
+.hero-bg {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}

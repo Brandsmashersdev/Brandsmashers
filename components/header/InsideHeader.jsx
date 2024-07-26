@@ -2,10 +2,6 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import ScrollspyNav from "react-scrollspy-nav";
 import sidebarContent from "../../data/sidebar";
-import Image from "next/image";
-import logo from "../../public/img/logo/fullLogo.png";
-import logo2 from "../../public/img/logo/fullLogo.png";
-import portfolioData from "../../data/portfolio";
 
 // sidebar footer bottom content
 const sidebarFooterContent = {

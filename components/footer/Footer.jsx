@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import ScrollspyNav from "react-scrollspy-nav";
-import logo from "../../public/img/logo/fullLogo.png";
 import sidebarContent from "../../data/sidebar";
 import footerSeviceContent from "../../data/services-footer";
 import socialMediaLink from "../../data/socialMediaLinks";
