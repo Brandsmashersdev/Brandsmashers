@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
 
             <div className="location">
-              <p>admin@brandsmashers.com</p>
+              <p>hr@brandsmashers.com</p>
               <p>Ashoka Garden, Bhopal,</p>
               <p>MP, India</p>
             </div>

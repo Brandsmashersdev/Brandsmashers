@@ -9,7 +9,7 @@ const Address = () => {
       info: (
         <>
           <li>
-            <a href="Tel: 9630168508 ">9630168508</a>
+            <a href="Tel: 9630168508 ">91+ 9589713710</a>
           </li>
         </>
       ),
@@ -23,7 +23,7 @@ const Address = () => {
         <>
         
           <li>
-            <a href="mailto:ib-themes21@gmail.com">brandingaayu@gmail.com</a>
+            <a href="mailto:ib-themes21@gmail.com">hr@brandsmashers.com</a>
           </li>
         </>
       ),
