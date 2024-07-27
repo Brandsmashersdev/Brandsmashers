@@ -15,7 +15,7 @@ const Hero = () => {
     <div className="Hero" id="home">
       <div className="content">
         <div className="extra">
-          <p className="slogan" style={{color: "white"}}>Unlocking innovation : Tailored Tech Solution</p>
+          <p className="slogan">Unlocking innovation : Tailored Tech Solution</p>
           <h5
             data-aos="fade-up"
             data-aos-duration="1200"
@@ -48,7 +48,7 @@ const Hero = () => {
             data-aos-duration="1200"
             data-aos-delay="500"
           >
-            <a href="/img/brochure.pdf" download className="color brochure">
+            <a href="/img/brochure.pdf" download className="button color brochure">
               Download Brochure
             </a>
           </div>
@@ -61,7 +61,19 @@ const Hero = () => {
         height={1000}
         className="hero-bg"
         ></Image>
+
+      <div className="circle-bg"></div>
+      <div className="hero-img">
+      <Image
+        src="/img/hero/hero-img.png"
+        alt="hero image"  
+        width={700}
+        height={500}
+        className="hero-image"
+        ></Image>
+      </div>
     </div>
+
     // /HERO
   );
 };
