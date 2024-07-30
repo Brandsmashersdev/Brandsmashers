@@ -26,12 +26,7 @@
 //     background-color: var(--primary-color);
 // }
 
-// .industries-section {
-//     display: flex;
-//     align-items: center;
-//     flex-direction: column;
-//     margin-top: 100px;
-// }
+
 
 // .industry-head p {
 //     padding: 0px 120px 30px;
@@ -206,3 +201,197 @@
 // @media only screen 
 // and (min-width : 1824px) {
 // }
+
+.techAdvantageContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;  
+    text-align: center;
+    
+}
+
+.techAdvantageheading{
+    color: #1E1861;
+    font-size: 2em;
+    font-weight:bold;
+}
+
+.techAdvantangedesccription{
+    font-size: 1.2em;
+    color: black;
+    text-align:center;
+    margin-top: 20px;
+    max-width:80%;
+    margin-left:90px;
+    font-weight:500;
+    }
+
+.tech-advantage-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.tech-advantage-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    transition: transform 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.tech-advantage-item:hover {
+    transform: scale(1.05); 
+
+}
+
+.tech-advantage-item img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    transition: opacity 0.3s;
+}
+
+.tech-advantage-item:hover img {
+    opacity: 0.8; 
+}
+.tech-advantage-title {
+    color: #1E1861;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+.tech-advantage-item:hover .tech-advantage-title {
+    color: #7645ff;
+}
+.tech-advantage-description {
+    color: #241919;
+    font-size: 16px;
+    margin-top: 5px;
+    max-width:50%;
+    transition: color 0.3s;
+}
+
+.tech-advantage-item:hover .tech-advantage-description {
+    color: #333; 
+}
+
+/*for responsive */
+
+@media (max-width: 1200px) {
+    .tech-advantage-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .techAdvantageheading {
+        font-size: 1.8em;
+    }
+
+    .techAdvantangedesccription {
+        font-size: 1.1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tech-advantage-title {
+        font-size: 16px;
+    }
+
+    .tech-advantage-description {
+        font-size: 15px;
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .tech-advantage-container {
+        grid-template-columns: 1fr;
+    }
+
+    .techAdvantageheading {
+        font-size: 1.6em;
+    }
+
+    .techAdvantangedesccription {
+        font-size: 1em;
+    }
+
+    .tech-advantage-item img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tech-advantage-title {
+        font-size: 14px;
+    }
+
+    .tech-advantage-description {
+        font-size: 14px;
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .techAdvantageheading {
+        font-size: 1.4em;
+    }
+
+    .techAdvantangedesccription {
+        font-size: 0.9em;
+    }
+
+    .tech-advantage-item img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tech-advantage-title {
+        font-size: 12px;
+    }
+
+    .tech-advantage-description {
+        font-size: 12px;
+        max-width: 80%;
+    }
+}
+
+
+
+
+/* Testimonials */
+.testimonials-container {
+    display: flex;
+    flex-direction: row; 
+    height: 800px;
+}
+
+.testimonialBlock {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonialBlock::before,
+.testimonialBlock::after {
+    content: "";
+    flex: 1;
+    height: 100%;
+}
+
+.testimonialBlock::before {
+    background-color: #060340;
+}
+
+.testimonialBlock::after {
+    background-color: #e9e0e0;
+}
+
