@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import sidebarContent from "../../../data/sidebar";
+import insightContent from "../../../data/blogs";
 import footerSeviceContent from "../../../data/services-footer";
 import socialMediaLink from "../../../data/socialMediaLinks";
 
@@ -41,6 +42,7 @@ const Footer = () => {
                 <p>MP, India</p>
               </div> */}
             <div className="footer_logo">
+              <p>Follow us on :</p>
               <ul>
                 {socialMediaLink.map((item, index) => (
                   <li key={index} className="social-media">
@@ -75,6 +77,24 @@ const Footer = () => {
                             style={{ color: "white" }}
                           >
                             {val.itemName}
+                          </a>
+                        </div>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+
+              <div className="insight-links" style={{marginTop: "20px"}}>
+                <h5>Insights</h5>
+                <ul className="footer_anchor_nav">
+                    {insightContent.map((val, i) => (
+                      <li key={i}>
+                        <div className="list_inner footer-nav">
+                          <a 
+                          href=""
+                          style={{ color: "white" }}
+                          >
+                            {val.title}
                           </a>
                         </div>
                       </li>

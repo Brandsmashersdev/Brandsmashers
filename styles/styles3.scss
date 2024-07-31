@@ -215,6 +215,7 @@ body {
   .footer_nav {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   
   .footer_anchor_nav {
@@ -265,6 +266,14 @@ body {
     display: inline-block;
     animation: move-services 20s linear infinite;
   }
+
+  .services-content span {
+    transition: all 0.5ms ease;
+  }
+
+  .services-content span:hover {
+    color: aqua;
+  }
   
   .service-item {
     display: inline-block;
@@ -282,6 +291,10 @@ body {
     }
   }
   
+  .footer {
+    color: #fff;
+  }
+
   .bottom-footer {
     display: flex;
     justify-content: space-between;
@@ -290,13 +303,15 @@ body {
   }
   
   .footer_logo {
-    display: flex;
+    // display: flex;
+    margin-top: 20px;
   }
   
   .footer_logo ul {
     display: flex;
     padding: 0;
     list-style: none;
+    margin-top: 20px;
   }
   
   .footer_logo li {
